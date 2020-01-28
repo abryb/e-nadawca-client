@@ -1,0 +1,35 @@
+{
+  "name": "abryb/e-nadawca-client",
+  "type": "library",
+  "description": "simple soap client for https://e-nadawca.poczta-polska.pl/",
+  "license": "MIT",
+  "keywords": [
+    "php",
+    "e-nadawca",
+    "poczta-polska"
+  ],
+  "authors": [
+    {
+      "name": "Błażej Rybarkiewicz",
+      "email": "b.rybarkiewicz@cogitech.pl"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Abryb\\ENadawca\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Abryb\\ENadawca\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^7.2",
+    "ext-soap": "*",
+    "ext-dom": "*",
+  },
+  "require-dev": {
+    "goetas-webservices/xsd2php": "^0.3.10"
+  }
+}

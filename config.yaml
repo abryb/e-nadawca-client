@@ -1,0 +1,9 @@
+xsd2php:
+  namespaces:
+    'http://e-nadawca.poczta-polska.pl': 'Abryb\ENadawca\Type'
+  destinations_php:
+    'Abryb\ENadawca\Type': src/Type
+  destinations_jms:
+    'Abryb\ENadawca\Type': var/metadata
+  naming_strategy: short
+  path_generator: psr4

@@ -1,0 +1,9 @@
+
+var/*
+!var/.gitkeep
+
+.php_cs.cache
+phpunit.phar
+vendor
+.idea
+test.php
