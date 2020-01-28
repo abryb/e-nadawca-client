@@ -27,7 +27,7 @@
   "require": {
     "php": "^7.2",
     "ext-soap": "*",
-    "ext-dom": "*",
+    "ext-dom": "*"
   },
   "require-dev": {
     "goetas-webservices/xsd2php": "^0.3.10"
