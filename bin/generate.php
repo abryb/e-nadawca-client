@@ -3,21 +3,26 @@
 
 include_once __DIR__.'/../vendor/autoload.php';
 
-$wsdlEndpoint           = 'https://e-nadawca.poczta-polska.pl/websrv/en.wsdl';
-$typesDir               = __DIR__.'/../src/Type';
-$wsdlFile               = __DIR__.'/../var/en.wsdl';
-$schemaFile             = __DIR__.'/../var/schema.xsd';
-$configFile             = __DIR__.'/../config.yaml';
-$classMapFile           = __DIR__.'/../src/ENadawcaClassmap.php';
-$clientClassMethodsFile = __DIR__.'/../src/ENadawcaClientMethods.php';
+const ROOT_DIR = __DIR__.'/..';
+const VAR_DIR  = ROOT_DIR.'/var';
+const SRC_DIR  = ROOT_DIR.'/src';
+
+$WSDL_ENDPOINT             = 'https://e-nadawca.poczta-polska.pl/websrv/en.wsdl';
+$TYPE_DIR                  = SRC_DIR.'/Type';
+$WSDL_FILE                 = VAR_DIR.'/en.wsdl';
+$SCHEMA_FILE               = VAR_DIR.'/schema.xsd';
+$CONFIG_FILE               = ROOT_DIR.'/config.yaml';
+$CLASSMAP_FILE             = SRC_DIR.'/ENadawcaClassmap.php';
+$CLIENT_CLASS_METHODS_FILE = SRC_DIR.'/ENadawcaClientMethods.php';
+$ENUM_DIR                  = SRC_DIR.'/Enum';
 
 // download wsdl
-exec("curl {$wsdlEndpoint} -s -o {$wsdlFile}");
+exec("curl {$WSDL_ENDPOINT} -s -o {$WSDL_FILE}");
 echo "wsdl file loaded\n";
 
 // Create schema file
 $wsdlDom = new \DOMDocument('1.0', 'UTF-8');
-$wsdlDom->load($wsdlFile);
+$wsdlDom->load($WSDL_FILE);
 $wsdlDom   = $wsdlDom->documentElement;
 $xmlns_tns = $wsdlDom->getAttribute('xmlns:tns');
 /** @var DOMElement $typesNode */
@@ -30,15 +35,15 @@ $schemaDom->importNode($schemaNode);
 $schemaDom->appendChild($schemaDom->importNode($schemaNode, true));
 $schemaDom->preserveWhiteSpace = false;
 $schemaDom->formatOutput       = true;
-$schemaDom->save($schemaFile);
+$schemaDom->save($SCHEMA_FILE);
 echo "schema.xsd file generated\n";
 
 // create types
-exec(__DIR__."/../vendor/bin/xsd2php convert '{$configFile}' '{$schemaFile}'");
+exec(__DIR__."/../vendor/bin/xsd2php convert '{$CONFIG_FILE}' '{$SCHEMA_FILE}'");
 echo "created types\n";
 
 // change types private to protected
-chdir($typesDir); // probably add some error handling around this
+chdir($TYPE_DIR); // probably add some error handling around this
 foreach (glob('*.php') as $typeClassFile) {
     $code = file_get_contents($typeClassFile);
     $code = str_replace('private $', 'protected $', $code);
@@ -47,7 +52,7 @@ foreach (glob('*.php') as $typeClassFile) {
 echo "changed types private properties to protected\n";
 
 // create classmap
-chdir($typesDir); // probably add some error handling around this
+chdir($TYPE_DIR); // probably add some error handling around this
 $classMap = [];
 foreach (glob('*.php') as $type) {
     $className       = substr($type, 0, strlen($type) - 4);
@@ -76,7 +81,7 @@ $classMapClass .= <<<'TEXT'
 }
 TEXT;
 
-file_put_contents($classMapFile, $classMapClass);
+file_put_contents($CLASSMAP_FILE, $classMapClass);
 echo "created classmap\n";
 
 // create client methods
@@ -116,4 +121,51 @@ $clientMethodsClass .= <<<'TEXT'
 }
 TEXT;
 
-file_put_contents($clientClassMethodsFile, $clientMethodsClass);
+file_put_contents($CLIENT_CLASS_METHODS_FILE, $clientMethodsClass);
+
+// create enum classes
+$simpleTypes = $schemaDom->getElementsByTagName('simpleType');
+
+$enums = [];
+foreach ($simpleTypes as $simpleType) {
+    /** @var DOMElement $simpleType */
+    $enumName     = $simpleType->getAttribute('name');
+    $restrictions = $simpleType->getElementsByTagName('restriction');
+    foreach ($restrictions as $restriction) {
+        /** @var DOMElement $restriction */
+        $enum = [];
+        foreach ($restriction->getElementsByTagName('enumeration') as $enumeration) {
+            /** @var DOMElement $enumeration */
+            $enum[] = $enumeration->getAttribute('value');
+        }
+        if (!empty($enum)) {
+            $enums[$enumName] = $enum;
+
+            break;
+        }
+    }
+}
+
+@mkdir($ENUM_DIR);
+chdir($ENUM_DIR);
+foreach ($enums as $name => $enum) {
+    $className = ucfirst($name);
+    $class     = <<<TEXT
+<?php
+
+namespace Abryb\\ENadawca\\Enum;
+
+class {$className} {
+
+TEXT;
+    foreach ($enum as $value) {
+        $class .= "    const {$value} = '{$value}';\n";
+    }
+    $class .= <<<'TEXT'
+}
+TEXT;
+
+    file_put_contents("{$className}.php", $class);
+}
+
+echo "creted enums for simple types\n";

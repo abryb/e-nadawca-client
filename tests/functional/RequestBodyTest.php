@@ -2,17 +2,18 @@
 
 declare(strict_types=1);
 
-
 namespace Abryb\ENadawca\Tests\functional;
-
 
 use Abryb\ENadawca\ENadawcaClient;
 use Abryb\ENadawca\ENadawcaClientFactory;
-use PHPUnit\Framework\TestCase;
 use Abryb\ENadawca\Type;
+use PHPUnit\Framework\TestCase;
 
 /**
  * @author Błażej Rybarkiewicz <b.rybarkiewicz@gmail.com>
+ *
+ * @internal
+ * @coversNothing
  */
 class RequestBodyTest extends TestCase
 {
@@ -24,7 +25,7 @@ class RequestBodyTest extends TestCase
     public static function setUpBeforeClass(): void
     {
         self::$client = ENadawcaClientFactory::createClient(
-            __DIR__ . "/../fixtures/en.wsdl",
+            __DIR__.'/../fixtures/en.wsdl',
             'username',
             'password',
             []
@@ -49,7 +50,7 @@ class RequestBodyTest extends TestCase
         try {
             self::$client->addShipment($s);
         } catch (\Throwable $e) {
-            $expected = <<<XML
+            $expected = <<<'XML'
 <?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope 
 xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" 
