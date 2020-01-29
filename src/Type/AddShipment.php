@@ -12,13 +12,13 @@ class AddShipment
     /**
      * @var \Abryb\ENadawca\Type\PrzesylkaType[] $przesylki
      */
-    private $przesylki = [
+    protected $przesylki = [
     ];
 
     /**
      * @var int $idBufor
      */
-    private $idBufor;
+    protected $idBufor;
 
     /**
      * Adds as przesylki

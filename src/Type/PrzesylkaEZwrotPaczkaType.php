@@ -14,7 +14,7 @@ class PrzesylkaEZwrotPaczkaType extends PrzesylkaRejestrowanaType
     /**
      * @var string $numerNadaniaZwrot
      */
-    private $numerNadaniaZwrot;
+    protected $numerNadaniaZwrot;
 
     /**
      * Gets as numerNadaniaZwrot

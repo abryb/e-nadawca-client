@@ -14,17 +14,17 @@ class ErrorType
     /**
      * @var int $errorNumber
      */
-    private $errorNumber;
+    protected $errorNumber;
 
     /**
      * @var string $errorDesc
      */
-    private $errorDesc;
+    protected $errorDesc;
 
     /**
      * @var string $guid
      */
-    private $guid;
+    protected $guid;
 
     /**
      * Gets as errorNumber

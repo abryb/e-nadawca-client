@@ -14,12 +14,12 @@ class DokumentyTowarzyszaceType
     /**
      * @var string $rodzaj
      */
-    private $rodzaj;
+    protected $rodzaj;
 
     /**
      * @var string $numer
      */
-    private $numer;
+    protected $numer;
 
     /**
      * Gets as rodzaj

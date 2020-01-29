@@ -12,7 +12,7 @@ class GetZapowiedziFaktur
     /**
      * @var \DateTime $data
      */
-    private $data;
+    protected $data;
 
     /**
      * Gets as data

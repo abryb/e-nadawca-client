@@ -12,7 +12,7 @@ class GetKartyResponse
     /**
      * @var \Abryb\ENadawca\Type\KartaType[] $karta
      */
-    private $karta = [
+    protected $karta = [
     ];
 
     /**

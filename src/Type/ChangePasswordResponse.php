@@ -12,7 +12,7 @@ class ChangePasswordResponse
     /**
      * @var \Abryb\ENadawca\Type\ErrorType[] $error
      */
-    private $error = [
+    protected $error = [
     ];
 
     /**

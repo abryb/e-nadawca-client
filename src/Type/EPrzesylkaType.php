@@ -14,47 +14,47 @@ class EPrzesylkaType extends PrzesylkaRejestrowanaType
     /**
      * @var int $masa
      */
-    private $masa;
+    protected $masa;
 
     /**
      * @var string $eSposobPowiadomieniaAdresata
      */
-    private $eSposobPowiadomieniaAdresata;
+    protected $eSposobPowiadomieniaAdresata;
 
     /**
      * @var string $eSposobPowiadomieniaNadawcy
      */
-    private $eSposobPowiadomieniaNadawcy;
+    protected $eSposobPowiadomieniaNadawcy;
 
     /**
      * @var string $eKontaktAdresata
      */
-    private $eKontaktAdresata;
+    protected $eKontaktAdresata;
 
     /**
      * @var string $eKontaktNadawcy
      */
-    private $eKontaktNadawcy;
+    protected $eKontaktNadawcy;
 
     /**
      * @var bool $ostroznie
      */
-    private $ostroznie;
+    protected $ostroznie;
 
     /**
      * @var int $wartosc
      */
-    private $wartosc;
+    protected $wartosc;
 
     /**
      * @var \Abryb\ENadawca\Type\UrzadWydaniaEPrzesylkiType $urzadWydaniaEPrzesylki
      */
-    private $urzadWydaniaEPrzesylki;
+    protected $urzadWydaniaEPrzesylki;
 
     /**
      * @var \Abryb\ENadawca\Type\PobranieType $pobranie
      */
-    private $pobranie;
+    protected $pobranie;
 
     /**
      * Gets as masa

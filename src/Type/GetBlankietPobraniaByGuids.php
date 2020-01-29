@@ -12,13 +12,13 @@ class GetBlankietPobraniaByGuids
     /**
      * @var string[] $guid
      */
-    private $guid = [
+    protected $guid = [
     ];
 
     /**
      * @var int $idBufor
      */
-    private $idBufor;
+    protected $idBufor;
 
     /**
      * Adds as guid

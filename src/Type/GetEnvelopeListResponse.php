@@ -12,7 +12,7 @@ class GetEnvelopeListResponse
     /**
      * @var \Abryb\ENadawca\Type\EnvelopeInfoType[] $envelopes
      */
-    private $envelopes = [
+    protected $envelopes = [
     ];
 
     /**

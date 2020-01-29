@@ -12,12 +12,12 @@ class GetOutboxBookResponse
     /**
      * @var mixed $pdfContent
      */
-    private $pdfContent;
+    protected $pdfContent;
 
     /**
      * @var \Abryb\ENadawca\Type\ErrorType[] $error
      */
-    private $error = [
+    protected $error = [
     ];
 
     /**

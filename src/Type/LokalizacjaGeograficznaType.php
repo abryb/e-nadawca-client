@@ -14,12 +14,12 @@ class LokalizacjaGeograficznaType
     /**
      * @var \Abryb\ENadawca\Type\WspolrzednaGeograficznaType $dlugosc
      */
-    private $dlugosc;
+    protected $dlugosc;
 
     /**
      * @var \Abryb\ENadawca\Type\WspolrzednaGeograficznaType $szerokosc
      */
-    private $szerokosc;
+    protected $szerokosc;
 
     /**
      * Gets as dlugosc

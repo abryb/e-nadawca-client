@@ -14,87 +14,87 @@ class ShopEZwrotyType
     /**
      * @var int $idShop
      */
-    private $idShop;
+    protected $idShop;
 
     /**
      * @var string $nazwa
      */
-    private $nazwa;
+    protected $nazwa;
 
     /**
      * @var string $nazwa2
      */
-    private $nazwa2;
+    protected $nazwa2;
 
     /**
      * @var string $przyjaznaNazwa
      */
-    private $przyjaznaNazwa;
+    protected $przyjaznaNazwa;
 
     /**
      * @var string $ulica
      */
-    private $ulica;
+    protected $ulica;
 
     /**
      * @var string $numerDomu
      */
-    private $numerDomu;
+    protected $numerDomu;
 
     /**
      * @var string $numerLokalu
      */
-    private $numerLokalu;
+    protected $numerLokalu;
 
     /**
      * @var string $miejscowosc
      */
-    private $miejscowosc;
+    protected $miejscowosc;
 
     /**
      * @var string $kodPocztowy
      */
-    private $kodPocztowy;
+    protected $kodPocztowy;
 
     /**
      * @var string $mobile
      */
-    private $mobile;
+    protected $mobile;
 
     /**
      * @var string $email
      */
-    private $email;
+    protected $email;
 
     /**
      * @var string $nip
      */
-    private $nip;
+    protected $nip;
 
     /**
      * @var string $regon
      */
-    private $regon;
+    protected $regon;
 
     /**
      * @var string $krs
      */
-    private $krs;
+    protected $krs;
 
     /**
      * @var string $eZwrotTyp
      */
-    private $eZwrotTyp;
+    protected $eZwrotTyp;
 
     /**
      * @var bool $wymagalnoscNumeruIdentyfikujacegoPrzesylke
      */
-    private $wymagalnoscNumeruIdentyfikujacegoPrzesylke;
+    protected $wymagalnoscNumeruIdentyfikujacegoPrzesylke;
 
     /**
      * @var string[] $eZwrotPrzesylki
      */
-    private $eZwrotPrzesylki = [
+    protected $eZwrotPrzesylki = [
     ];
 
     /**

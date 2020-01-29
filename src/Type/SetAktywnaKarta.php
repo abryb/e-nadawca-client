@@ -12,7 +12,7 @@ class SetAktywnaKarta
     /**
      * @var int $idKarta
      */
-    private $idKarta;
+    protected $idKarta;
 
     /**
      * Gets as idKarta

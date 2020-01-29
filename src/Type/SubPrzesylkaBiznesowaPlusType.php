@@ -14,47 +14,47 @@ class SubPrzesylkaBiznesowaPlusType extends PrzesylkaType
     /**
      * @var string $numerNadania
      */
-    private $numerNadania;
+    protected $numerNadania;
 
     /**
      * @var int $masa
      */
-    private $masa;
+    protected $masa;
 
     /**
      * @var string $gabaryt
      */
-    private $gabaryt;
+    protected $gabaryt;
 
     /**
      * @var int $wartosc
      */
-    private $wartosc;
+    protected $wartosc;
 
     /**
      * @var bool $ostroznie
      */
-    private $ostroznie;
+    protected $ostroznie;
 
     /**
      * @var string $numerPrzesylkiKlienta
      */
-    private $numerPrzesylkiKlienta;
+    protected $numerPrzesylkiKlienta;
 
     /**
      * @var int $kwotaTranzakcji
      */
-    private $kwotaTranzakcji;
+    protected $kwotaTranzakcji;
 
     /**
      * @var string $numerTransakcjiOdbioru
      */
-    private $numerTransakcjiOdbioru;
+    protected $numerTransakcjiOdbioru;
 
     /**
      * @var \Abryb\ENadawca\Type\PobranieType $pobranie
      */
-    private $pobranie;
+    protected $pobranie;
 
     /**
      * Gets as numerNadania

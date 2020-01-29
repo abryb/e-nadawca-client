@@ -14,32 +14,32 @@ class PrzesylkaEPOType
     /**
      * @var string $guid
      */
-    private $guid;
+    protected $guid;
 
     /**
      * @var string $numerNadania
      */
-    private $numerNadania;
+    protected $numerNadania;
 
     /**
      * @var string $statusEPO
      */
-    private $statusEPO;
+    protected $statusEPO;
 
     /**
      * @var \Abryb\ENadawca\Type\EPOInfoType $ePOInfo
      */
-    private $ePOInfo;
+    protected $ePOInfo;
 
     /**
      * @var mixed $biometricSignatureContent
      */
-    private $biometricSignatureContent;
+    protected $biometricSignatureContent;
 
     /**
      * @var int $version
      */
-    private $version;
+    protected $version;
 
     /**
      * Gets as guid

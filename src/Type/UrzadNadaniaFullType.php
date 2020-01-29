@@ -14,17 +14,17 @@ class UrzadNadaniaFullType
     /**
      * @var int $urzadNadania
      */
-    private $urzadNadania;
+    protected $urzadNadania;
 
     /**
      * @var string $opis
      */
-    private $opis;
+    protected $opis;
 
     /**
      * @var string $nazwaWydruk
      */
-    private $nazwaWydruk;
+    protected $nazwaWydruk;
 
     /**
      * Gets as urzadNadania

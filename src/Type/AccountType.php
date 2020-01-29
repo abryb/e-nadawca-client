@@ -14,66 +14,66 @@ class AccountType
     /**
      * @var string $userName
      */
-    private $userName;
+    protected $userName;
 
     /**
      * @var string $firstName
      */
-    private $firstName;
+    protected $firstName;
 
     /**
      * @var string $lastName
      */
-    private $lastName;
+    protected $lastName;
 
     /**
      * @var string $email
      */
-    private $email;
+    protected $email;
 
     /**
      * @var string $status
      */
-    private $status;
+    protected $status;
 
     /**
      * @var \Abryb\ENadawca\Type\KartaType[] $karta
      */
-    private $karta = [
+    protected $karta = [
     ];
 
     /**
      * @var string[] $permision
      */
-    private $permision = [
+    protected $permision = [
     ];
 
     /**
      * @var \Abryb\ENadawca\Type\ProfilType[] $profil
      */
-    private $profil = [
+    protected $profil = [
     ];
 
     /**
      * @var \Abryb\ENadawca\Type\JednostkaOrganizacyjnaType[] $jednostka
      */
-    private $jednostka = [
+    protected $jednostka = [
     ];
 
     /**
      * @var \Abryb\ENadawca\Type\JednostkaOrganizacyjnaType $domyslnaJednostka
      */
-    private $domyslnaJednostka;
+    protected $domyslnaJednostka;
 
     /**
      * @var \Abryb\ENadawca\Type\ProfilType $domyslnyProfil
      */
-    private $domyslnyProfil;
+    protected $domyslnyProfil;
 
     /**
      * @var string[] $dostepPoAdresieIP
      */
-    private $dostepPoAdresieIP = [
+    protected $dostepPoAdresieIP = [
     ];
 
     /**

@@ -37,6 +37,15 @@ echo "schema.xsd file generated\n";
 exec(__DIR__."/../vendor/bin/xsd2php convert '{$configFile}' '{$schemaFile}'");
 echo "created types\n";
 
+// change types private to protected
+chdir($typesDir); // probably add some error handling around this
+foreach (glob('*.php') as $typeClassFile) {
+    $code = file_get_contents($typeClassFile);
+    $code = str_replace('private $', 'protected $', $code);
+    file_put_contents($typeClassFile, $code);
+}
+echo "changed types private properties to protected\n";
+
 // create classmap
 chdir($typesDir); // probably add some error handling around this
 $classMap = [];

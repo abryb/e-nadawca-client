@@ -12,7 +12,7 @@ class GetPlacowkiPocztowe
     /**
      * @var string $idWojewodztwo
      */
-    private $idWojewodztwo;
+    protected $idWojewodztwo;
 
     /**
      * Gets as idWojewodztwo

@@ -14,92 +14,92 @@ class PocztexKrajowyType extends PrzesylkaRejestrowanaType
     /**
      * @var bool $posteRestante
      */
-    private $posteRestante;
+    protected $posteRestante;
 
     /**
      * @var string $terminRodzaj
      */
-    private $terminRodzaj;
+    protected $terminRodzaj;
 
     /**
      * @var bool $kopertaFirmowa
      */
-    private $kopertaFirmowa;
+    protected $kopertaFirmowa;
 
     /**
      * @var int $masa
      */
-    private $masa;
+    protected $masa;
 
     /**
      * @var int $wartosc
      */
-    private $wartosc;
+    protected $wartosc;
 
     /**
      * @var bool $ostroznie
      */
-    private $ostroznie;
+    protected $ostroznie;
 
     /**
      * @var bool $ponadgabaryt
      */
-    private $ponadgabaryt;
+    protected $ponadgabaryt;
 
     /**
      * @var string $uiszczaOplate
      */
-    private $uiszczaOplate;
+    protected $uiszczaOplate;
 
     /**
      * @var int $odleglosc
      */
-    private $odleglosc;
+    protected $odleglosc;
 
     /**
      * @var string $zawartosc
      */
-    private $zawartosc;
+    protected $zawartosc;
 
     /**
      * @var bool $sprawdzenieZawartosciPrzesylkiPrzezOdbiorce
      */
-    private $sprawdzenieZawartosciPrzesylkiPrzezOdbiorce;
+    protected $sprawdzenieZawartosciPrzesylkiPrzezOdbiorce;
 
     /**
      * @var \Abryb\ENadawca\Type\PobranieType $pobranie
      */
-    private $pobranie;
+    protected $pobranie;
 
     /**
      * @var \Abryb\ENadawca\Type\OdbiorPrzesylkiOdNadawcyType $odbiorPrzesylkiOdNadawcy
      */
-    private $odbiorPrzesylkiOdNadawcy;
+    protected $odbiorPrzesylkiOdNadawcy;
 
     /**
      * @var \Abryb\ENadawca\Type\DoreczenieType $doreczenie
      */
-    private $doreczenie;
+    protected $doreczenie;
 
     /**
      * @var \Abryb\ENadawca\Type\ZwrotDokumentowType $zwrotDokumentow
      */
-    private $zwrotDokumentow;
+    protected $zwrotDokumentow;
 
     /**
      * @var \Abryb\ENadawca\Type\PotwierdzenieOdbioruType $potwierdzenieOdbioru
      */
-    private $potwierdzenieOdbioru;
+    protected $potwierdzenieOdbioru;
 
     /**
      * @var \Abryb\ENadawca\Type\PotwierdzenieDoreczeniaType $potwierdzenieDoreczenia
      */
-    private $potwierdzenieDoreczenia;
+    protected $potwierdzenieDoreczenia;
 
     /**
      * @var \Abryb\ENadawca\Type\UbezpieczenieType $ubezpieczenie
      */
-    private $ubezpieczenie;
+    protected $ubezpieczenie;
 
     /**
      * Gets as posteRestante

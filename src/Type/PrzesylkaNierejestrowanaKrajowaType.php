@@ -14,19 +14,19 @@ class PrzesylkaNierejestrowanaKrajowaType extends PrzesylkaNieRejestrowanaType
     /**
      * @var string $kategoria
      */
-    private $kategoria;
+    protected $kategoria;
 
     /**
      * Format przesyłki
      *
      * @var string $format
      */
-    private $format;
+    protected $format;
 
     /**
      * @var int $masa
      */
-    private $masa;
+    protected $masa;
 
     /**
      * Gets as kategoria

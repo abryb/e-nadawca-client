@@ -12,7 +12,7 @@ class IsMiejscowaResponse
     /**
      * @var \Abryb\ENadawca\Type\TrasaResponseType[] $trasaResponse
      */
-    private $trasaResponse = [
+    protected $trasaResponse = [
     ];
 
     /**

@@ -14,12 +14,12 @@ class ReklamacjaInfoType
     /**
      * @var string $idReklamacja
      */
-    private $idReklamacja;
+    protected $idReklamacja;
 
     /**
      * @var string $guidPrzesylki
      */
-    private $guidPrzesylki;
+    protected $guidPrzesylki;
 
     /**
      * Gets as idReklamacja

@@ -14,17 +14,17 @@ class PakietType
     /**
      * @var string $pakietGuid
      */
-    private $pakietGuid;
+    protected $pakietGuid;
 
     /**
      * @var string $miejsceOdbioru
      */
-    private $miejsceOdbioru;
+    protected $miejsceOdbioru;
 
     /**
      * @var string $sposobNadania
      */
-    private $sposobNadania;
+    protected $sposobNadania;
 
     /**
      * Uwaga w tym miejscu wystarczy jak obiekt kierunke będzie miał ustawioną tylko własność id (nie jest potrzebne przesyłanie pełnego
@@ -32,18 +32,18 @@ class PakietType
      *
      * @var \Abryb\ENadawca\Type\KierunekType $kierunek
      */
-    private $kierunek;
+    protected $kierunek;
 
     /**
      * @var \Abryb\ENadawca\Type\OpakowanieType[] $opakowanie
      */
-    private $opakowanie = [
+    protected $opakowanie = [
     ];
 
     /**
      * @var string[] $czynnoscUpustowa
      */
-    private $czynnoscUpustowa = [
+    protected $czynnoscUpustowa = [
     ];
 
     /**

@@ -14,32 +14,32 @@ class DaneSentType
     /**
      * @var string $numer
      */
-    private $numer;
+    protected $numer;
 
     /**
      * @var string $kluczPrzewoznika
      */
-    private $kluczPrzewoznika;
+    protected $kluczPrzewoznika;
 
     /**
      * @var string $kodCN
      */
-    private $kodCN;
+    protected $kodCN;
 
     /**
      * @var string $kodPKWiU
      */
-    private $kodPKWiU;
+    protected $kodPKWiU;
 
     /**
      * @var float $masa
      */
-    private $masa;
+    protected $masa;
 
     /**
      * @var bool $proceduraAwaryjna
      */
-    private $proceduraAwaryjna;
+    protected $proceduraAwaryjna;
 
     /**
      * Gets as numer

@@ -12,12 +12,12 @@ class GetOutboxBook
     /**
      * @var int $idEnvelope
      */
-    private $idEnvelope;
+    protected $idEnvelope;
 
     /**
      * @var bool $includeNierejestrowane
      */
-    private $includeNierejestrowane;
+    protected $includeNierejestrowane;
 
     /**
      * Gets as idEnvelope

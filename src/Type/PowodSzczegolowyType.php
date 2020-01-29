@@ -14,12 +14,12 @@ class PowodSzczegolowyType
     /**
      * @var int $idPowodSzczegolowy
      */
-    private $idPowodSzczegolowy;
+    protected $idPowodSzczegolowy;
 
     /**
      * @var string $powodSzczegolowyOpis
      */
-    private $powodSzczegolowyOpis;
+    protected $powodSzczegolowyOpis;
 
     /**
      * Gets as idPowodSzczegolowy

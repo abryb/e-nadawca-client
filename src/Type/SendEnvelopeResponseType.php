@@ -14,23 +14,23 @@ class SendEnvelopeResponseType
     /**
      * @var int $idEnvelope
      */
-    private $idEnvelope;
+    protected $idEnvelope;
 
     /**
      * @var string $envelopeStatus
      */
-    private $envelopeStatus;
+    protected $envelopeStatus;
 
     /**
      * @var \Abryb\ENadawca\Type\ErrorType[] $error
      */
-    private $error = [
+    protected $error = [
     ];
 
     /**
      * @var string $envelopeFilename
      */
-    private $envelopeFilename;
+    protected $envelopeFilename;
 
     /**
      * Gets as idEnvelope

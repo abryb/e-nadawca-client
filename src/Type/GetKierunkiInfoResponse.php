@@ -12,18 +12,18 @@ class GetKierunkiInfoResponse
     /**
      * @var \DateTime $lastUpdate
      */
-    private $lastUpdate;
+    protected $lastUpdate;
 
     /**
      * @var \Abryb\ENadawca\Type\UslugiType[] $usluga
      */
-    private $usluga = [
+    protected $usluga = [
     ];
 
     /**
      * @var \Abryb\ENadawca\Type\ErrorType[] $error
      */
-    private $error = [
+    protected $error = [
     ];
 
     /**

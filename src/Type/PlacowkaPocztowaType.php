@@ -14,99 +14,99 @@ class PlacowkaPocztowaType
     /**
      * @var int $id
      */
-    private $id;
+    protected $id;
 
     /**
      * @var string $prefixNazwy
      */
-    private $prefixNazwy;
+    protected $prefixNazwy;
 
     /**
      * @var string $nazwa
      */
-    private $nazwa;
+    protected $nazwa;
 
     /**
      * @var string $wojewodztwo
      */
-    private $wojewodztwo;
+    protected $wojewodztwo;
 
     /**
      * @var string $powiat
      */
-    private $powiat;
+    protected $powiat;
 
     /**
      * @var string $miejsce
      */
-    private $miejsce;
+    protected $miejsce;
 
     /**
      * @var string $kodPocztowy
      */
-    private $kodPocztowy;
+    protected $kodPocztowy;
 
     /**
      * @var string $miejscowosc
      */
-    private $miejscowosc;
+    protected $miejscowosc;
 
     /**
      * @var string $ulica
      */
-    private $ulica;
+    protected $ulica;
 
     /**
      * @var string $numerDomu
      */
-    private $numerDomu;
+    protected $numerDomu;
 
     /**
      * @var string $numerLokalu
      */
-    private $numerLokalu;
+    protected $numerLokalu;
 
     /**
      * Pole dedykowane do wykorzystania na nalepkach adresowych przy określaniu punktu odbioru
      *
      * @var string $nazwaWydruk
      */
-    private $nazwaWydruk;
+    protected $nazwaWydruk;
 
     /**
      * @var bool $punktWydaniaEPrzesylki
      */
-    private $punktWydaniaEPrzesylki;
+    protected $punktWydaniaEPrzesylki;
 
     /**
      * @var bool $powiadomienieSMS
      */
-    private $powiadomienieSMS;
+    protected $powiadomienieSMS;
 
     /**
      * @var bool $punktWydaniaPrzesylkiBiznesowejPlus
      */
-    private $punktWydaniaPrzesylkiBiznesowejPlus;
+    protected $punktWydaniaPrzesylkiBiznesowejPlus;
 
     /**
      * @var bool $punktWydaniaPrzesylkiBiznesowej
      */
-    private $punktWydaniaPrzesylkiBiznesowej;
+    protected $punktWydaniaPrzesylkiBiznesowej;
 
     /**
      * @var string $siecPlacowek
      */
-    private $siecPlacowek;
+    protected $siecPlacowek;
 
     /**
      * @var string $idZPO
      */
-    private $idZPO;
+    protected $idZPO;
 
     /**
      * @var \Abryb\ENadawca\Type\LokalizacjaGeograficznaType $lokalizacjaGeograficzna
      */
-    private $lokalizacjaGeograficzna;
+    protected $lokalizacjaGeograficzna;
 
     /**
      * Gets as id

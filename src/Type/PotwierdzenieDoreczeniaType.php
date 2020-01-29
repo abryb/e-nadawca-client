@@ -14,12 +14,12 @@ class PotwierdzenieDoreczeniaType
     /**
      * @var string $sposob
      */
-    private $sposob;
+    protected $sposob;
 
     /**
      * @var string $kontakt
      */
-    private $kontakt;
+    protected $kontakt;
 
     /**
      * Gets as sposob

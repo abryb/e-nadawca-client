@@ -14,47 +14,47 @@ class InfoPaczkaKorzysciType
     /**
      * @var int $iloscStandardDo5kg
      */
-    private $iloscStandardDo5kg;
+    protected $iloscStandardDo5kg;
 
     /**
      * @var int $iloscPobranieDo5kg
      */
-    private $iloscPobranieDo5kg;
+    protected $iloscPobranieDo5kg;
 
     /**
      * @var int $iloscOdbiorWPunkcieDo5kg
      */
-    private $iloscOdbiorWPunkcieDo5kg;
+    protected $iloscOdbiorWPunkcieDo5kg;
 
     /**
      * @var int $iloscPobranieOdbiorWPunkcieDo5kg
      */
-    private $iloscPobranieOdbiorWPunkcieDo5kg;
+    protected $iloscPobranieOdbiorWPunkcieDo5kg;
 
     /**
      * @var int $iloscStandardDo30kg
      */
-    private $iloscStandardDo30kg;
+    protected $iloscStandardDo30kg;
 
     /**
      * @var int $iloscPobranieDo30kg
      */
-    private $iloscPobranieDo30kg;
+    protected $iloscPobranieDo30kg;
 
     /**
      * @var int $iloscOdbiorWPunkcieDo30kg
      */
-    private $iloscOdbiorWPunkcieDo30kg;
+    protected $iloscOdbiorWPunkcieDo30kg;
 
     /**
      * @var int $iloscPobranieOdbiorWPunkcieDo30kg
      */
-    private $iloscPobranieOdbiorWPunkcieDo30kg;
+    protected $iloscPobranieOdbiorWPunkcieDo30kg;
 
     /**
      * @var \DateTime $dataWaznosciUmowy
      */
-    private $dataWaznosciUmowy;
+    protected $dataWaznosciUmowy;
 
     /**
      * Gets as iloscStandardDo5kg

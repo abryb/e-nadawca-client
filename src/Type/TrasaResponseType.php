@@ -14,12 +14,12 @@ class TrasaResponseType
     /**
      * @var bool $isMiejscowa
      */
-    private $isMiejscowa;
+    protected $isMiejscowa;
 
     /**
      * @var string $guid
      */
-    private $guid;
+    protected $guid;
 
     /**
      * Gets as isMiejscowa

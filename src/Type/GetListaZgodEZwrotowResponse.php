@@ -12,13 +12,13 @@ class GetListaZgodEZwrotowResponse
     /**
      * @var \Abryb\ENadawca\Type\OczekujeNaZgodeEZwrotType[] $lista
      */
-    private $lista = [
+    protected $lista = [
     ];
 
     /**
      * @var \Abryb\ENadawca\Type\ErrorType[] $error
      */
-    private $error = [
+    protected $error = [
     ];
 
     /**

@@ -14,12 +14,12 @@ class PlatnikType
     /**
      * @var string $uiszczaOplate
      */
-    private $uiszczaOplate;
+    protected $uiszczaOplate;
 
     /**
      * @var \Abryb\ENadawca\Type\AdresType $adresPlatnika
      */
-    private $adresPlatnika;
+    protected $adresPlatnika;
 
     /**
      * Gets as uiszczaOplate

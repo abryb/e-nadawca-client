@@ -12,12 +12,12 @@ class UploadIWDContent
     /**
      * @var int $urzadNadania
      */
-    private $urzadNadania;
+    protected $urzadNadania;
 
     /**
      * @var mixed $iWDContent
      */
-    private $iWDContent;
+    protected $iWDContent;
 
     /**
      * Gets as urzadNadania

@@ -14,42 +14,42 @@ class EZDOPrzesylkaType
     /**
      * @var string $numerNadania
      */
-    private $numerNadania;
+    protected $numerNadania;
 
     /**
      * @var string $rodzaj
      */
-    private $rodzaj;
+    protected $rodzaj;
 
     /**
      * @var string $kategoria
      */
-    private $kategoria;
+    protected $kategoria;
 
     /**
      * @var int $masa
      */
-    private $masa;
+    protected $masa;
 
     /**
      * @var int $wartosc
      */
-    private $wartosc;
+    protected $wartosc;
 
     /**
      * @var int $kwotaPobrania
      */
-    private $kwotaPobrania;
+    protected $kwotaPobrania;
 
     /**
      * @var string $numerWewnetrznyPrzesylki
      */
-    private $numerWewnetrznyPrzesylki;
+    protected $numerWewnetrznyPrzesylki;
 
     /**
      * @var string $zwrot
      */
-    private $zwrot;
+    protected $zwrot;
 
     /**
      * Gets as numerNadania

@@ -14,37 +14,37 @@ class PaczkaZagranicznaType extends PrzesylkaRejestrowanaType
     /**
      * @var bool $posteRestante
      */
-    private $posteRestante;
+    protected $posteRestante;
 
     /**
      * @var int $masa
      */
-    private $masa;
+    protected $masa;
 
     /**
      * @var int $wartosc
      */
-    private $wartosc;
+    protected $wartosc;
 
     /**
      * @var string $kategoria
      */
-    private $kategoria;
+    protected $kategoria;
 
     /**
      * @var int $iloscPotwierdzenOdbioru
      */
-    private $iloscPotwierdzenOdbioru;
+    protected $iloscPotwierdzenOdbioru;
 
     /**
      * @var bool $utrudnionaManipulacja
      */
-    private $utrudnionaManipulacja;
+    protected $utrudnionaManipulacja;
 
     /**
      * @var bool $ekspres
      */
-    private $ekspres;
+    protected $ekspres;
 
     /**
      * atrybut przestarzały (deprecated), należy używać typu
@@ -52,22 +52,22 @@ class PaczkaZagranicznaType extends PrzesylkaRejestrowanaType
      *
      * @var string $numerReferencyjnyCelny
      */
-    private $numerReferencyjnyCelny;
+    protected $numerReferencyjnyCelny;
 
     /**
      * @var \Abryb\ENadawca\Type\ZwrotType $zwrot
      */
-    private $zwrot;
+    protected $zwrot;
 
     /**
      * @var \Abryb\ENadawca\Type\DeklaracjaCelnaType $deklaracjaCelna
      */
-    private $deklaracjaCelna;
+    protected $deklaracjaCelna;
 
     /**
      * @var \Abryb\ENadawca\Type\DeklaracjaCelna2Type $deklaracjaCelna2
      */
-    private $deklaracjaCelna2;
+    protected $deklaracjaCelna2;
 
     /**
      * Gets as posteRestante

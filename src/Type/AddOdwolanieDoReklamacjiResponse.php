@@ -12,13 +12,13 @@ class AddOdwolanieDoReklamacjiResponse
     /**
      * @var \Abryb\ENadawca\Type\ErrorType[] $error
      */
-    private $error = [
+    protected $error = [
     ];
 
     /**
      * @var \Abryb\ENadawca\Type\ReklamacjaInfoType[] $reklamacjaInfo
      */
-    private $reklamacjaInfo = [
+    protected $reklamacjaInfo = [
     ];
 
     /**

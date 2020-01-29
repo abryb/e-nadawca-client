@@ -14,42 +14,42 @@ class GlobalExpresType extends PrzesylkaRejestrowanaType
     /**
      * @var int $masa
      */
-    private $masa;
+    protected $masa;
 
     /**
      * @var bool $posteRestante
      */
-    private $posteRestante;
+    protected $posteRestante;
 
     /**
      * @var string $zawartosc
      */
-    private $zawartosc;
+    protected $zawartosc;
 
     /**
      * @var string $kategoria
      */
-    private $kategoria;
+    protected $kategoria;
 
     /**
      * @var string $numerPrzesylkiKlienta
      */
-    private $numerPrzesylkiKlienta;
+    protected $numerPrzesylkiKlienta;
 
     /**
      * @var \Abryb\ENadawca\Type\UbezpieczenieType $ubezpieczenie
      */
-    private $ubezpieczenie;
+    protected $ubezpieczenie;
 
     /**
      * @var \Abryb\ENadawca\Type\PotwierdzenieDoreczeniaType $potwierdzenieDoreczenia
      */
-    private $potwierdzenieDoreczenia;
+    protected $potwierdzenieDoreczenia;
 
     /**
      * @var \Abryb\ENadawca\Type\DeklaracjaCelna2Type $deklaracjaCelna2
      */
-    private $deklaracjaCelna2;
+    protected $deklaracjaCelna2;
 
     /**
      * Gets as masa

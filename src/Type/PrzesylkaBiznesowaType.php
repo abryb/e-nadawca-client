@@ -14,58 +14,58 @@ class PrzesylkaBiznesowaType extends PrzesylkaRejestrowanaType
     /**
      * @var string $zasadySpecjalne
      */
-    private $zasadySpecjalne;
+    protected $zasadySpecjalne;
 
     /**
      * @var int $masa
      */
-    private $masa;
+    protected $masa;
 
     /**
      * @var string $gabaryt
      */
-    private $gabaryt;
+    protected $gabaryt;
 
     /**
      * @var int $wartosc
      */
-    private $wartosc;
+    protected $wartosc;
 
     /**
      * @var bool $ostroznie
      */
-    private $ostroznie;
+    protected $ostroznie;
 
     /**
      * @var string $numerTransakcjiOdbioru
      */
-    private $numerTransakcjiOdbioru;
+    protected $numerTransakcjiOdbioru;
 
     /**
      * @var \Abryb\ENadawca\Type\PobranieType $pobranie
      */
-    private $pobranie;
+    protected $pobranie;
 
     /**
      * @var \Abryb\ENadawca\Type\UrzadWydaniaEPrzesylkiType $urzadWydaniaEPrzesylki
      */
-    private $urzadWydaniaEPrzesylki;
+    protected $urzadWydaniaEPrzesylki;
 
     /**
      * @var \Abryb\ENadawca\Type\SubPrzesylkaBiznesowaType[] $subPrzesylka
      */
-    private $subPrzesylka = [
+    protected $subPrzesylka = [
     ];
 
     /**
      * @var \Abryb\ENadawca\Type\UbezpieczenieType $ubezpieczenie
      */
-    private $ubezpieczenie;
+    protected $ubezpieczenie;
 
     /**
      * @var \Abryb\ENadawca\Type\EPOType $epo
      */
-    private $epo;
+    protected $epo;
 
     /**
      * Gets as zasadySpecjalne

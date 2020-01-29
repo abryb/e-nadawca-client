@@ -14,17 +14,17 @@ class EZDOPakietType
     /**
      * @var int $idEZDOPakiet
      */
-    private $idEZDOPakiet;
+    protected $idEZDOPakiet;
 
     /**
      * @var \DateTime $exported
      */
-    private $exported;
+    protected $exported;
 
     /**
      * @var string $idEZDOFile
      */
-    private $idEZDOFile;
+    protected $idEZDOFile;
 
     /**
      * Gets as idEZDOPakiet

@@ -14,37 +14,37 @@ class PrzesylkaRejestrowanaType extends PrzesylkaType
     /**
      * @var string $numerNadania
      */
-    private $numerNadania;
+    protected $numerNadania;
 
     /**
      * @var string $sygnatura
      */
-    private $sygnatura;
+    protected $sygnatura;
 
     /**
      * @var string $terminSprawy
      */
-    private $terminSprawy;
+    protected $terminSprawy;
 
     /**
      * @var string $rodzaj
      */
-    private $rodzaj;
+    protected $rodzaj;
 
     /**
      * @var \Abryb\ENadawca\Type\AdresType $adres
      */
-    private $adres;
+    protected $adres;
 
     /**
      * @var \Abryb\ENadawca\Type\AdresType $nadawca
      */
-    private $nadawca;
+    protected $nadawca;
 
     /**
      * @var \Abryb\ENadawca\Type\RelatedToAllegroType $relatedToAllegro
      */
-    private $relatedToAllegro;
+    protected $relatedToAllegro;
 
     /**
      * Gets as numerNadania

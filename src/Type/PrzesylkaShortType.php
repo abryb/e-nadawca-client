@@ -14,37 +14,37 @@ class PrzesylkaShortType
     /**
      * @var string $numerNadania
      */
-    private $numerNadania;
+    protected $numerNadania;
 
     /**
      * @var string $guid
      */
-    private $guid;
+    protected $guid;
 
     /**
      * @var \DateTime $dataNadania
      */
-    private $dataNadania;
+    protected $dataNadania;
 
     /**
      * @var int $razem
      */
-    private $razem;
+    protected $razem;
 
     /**
      * @var int $pobranie
      */
-    private $pobranie;
+    protected $pobranie;
 
     /**
      * @var string $status
      */
-    private $status;
+    protected $status;
 
     /**
      * @var string[] $czynnosciUpustowe
      */
-    private $czynnosciUpustowe = [
+    protected $czynnosciUpustowe = [
     ];
 
     /**

@@ -12,7 +12,7 @@ class SetEnvelopeBuforDataNadania
     /**
      * @var \DateTime $dataNadania
      */
-    private $dataNadania;
+    protected $dataNadania;
 
     /**
      * Gets as dataNadania

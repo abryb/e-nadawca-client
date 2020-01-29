@@ -14,27 +14,27 @@ class PrzesylkaZadeklarowanaWartoscZagranicznaType extends PrzesylkaRejestrowana
     /**
      * @var bool $posteRestante
      */
-    private $posteRestante;
+    protected $posteRestante;
 
     /**
      * @var int $masa
      */
-    private $masa;
+    protected $masa;
 
     /**
      * @var int $iloscPotwierdzenOdbioru
      */
-    private $iloscPotwierdzenOdbioru;
+    protected $iloscPotwierdzenOdbioru;
 
     /**
      * @var int $wartosc
      */
-    private $wartosc;
+    protected $wartosc;
 
     /**
      * @var \Abryb\ENadawca\Type\DeklaracjaCelna2Type $deklaracjaCelna2
      */
-    private $deklaracjaCelna2;
+    protected $deklaracjaCelna2;
 
     /**
      * Gets as posteRestante

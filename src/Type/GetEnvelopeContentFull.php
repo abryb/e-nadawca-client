@@ -12,7 +12,7 @@ class GetEnvelopeContentFull
     /**
      * @var int $idEnvelope
      */
-    private $idEnvelope;
+    protected $idEnvelope;
 
     /**
      * Gets as idEnvelope

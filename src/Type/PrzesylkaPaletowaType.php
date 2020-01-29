@@ -14,159 +14,159 @@ class PrzesylkaPaletowaType extends PrzesylkaRejestrowanaType
     /**
      * @var string $zawartosc
      */
-    private $zawartosc;
+    protected $zawartosc;
 
     /**
      * @var int $masa
      */
-    private $masa;
+    protected $masa;
 
     /**
      * @var \DateTime $dataZaladunku
      */
-    private $dataZaladunku;
+    protected $dataZaladunku;
 
     /**
      * @var \DateTime $dataDostawy
      */
-    private $dataDostawy;
+    protected $dataDostawy;
 
     /**
      * @var int $wartosc
      */
-    private $wartosc;
+    protected $wartosc;
 
     /**
      * @var int $iloscZwracanychPaletEUR
      */
-    private $iloscZwracanychPaletEUR;
+    protected $iloscZwracanychPaletEUR;
 
     /**
      * @var string $zalaczonaFV
      */
-    private $zalaczonaFV;
+    protected $zalaczonaFV;
 
     /**
      * @var string $zalaczonyWZ
      */
-    private $zalaczonyWZ;
+    protected $zalaczonyWZ;
 
     /**
      * @var string $zalaczoneInne
      */
-    private $zalaczoneInne;
+    protected $zalaczoneInne;
 
     /**
      * @var string $zwracanaFV
      */
-    private $zwracanaFV;
+    protected $zwracanaFV;
 
     /**
      * @var string $zwracanyWZ
      */
-    private $zwracanyWZ;
+    protected $zwracanyWZ;
 
     /**
      * @var string $zwracaneInne
      */
-    private $zwracaneInne;
+    protected $zwracaneInne;
 
     /**
      * @var string $powiadomienieNadawcy
      */
-    private $powiadomienieNadawcy;
+    protected $powiadomienieNadawcy;
 
     /**
      * @var string $powiadomienieOdbiorcy
      */
-    private $powiadomienieOdbiorcy;
+    protected $powiadomienieOdbiorcy;
 
     /**
      * @var bool $dostawaWSobote
      */
-    private $dostawaWSobote;
+    protected $dostawaWSobote;
 
     /**
      * @var bool $przygotowanieDokumentowPrzewozowych
      */
-    private $przygotowanieDokumentowPrzewozowych;
+    protected $przygotowanieDokumentowPrzewozowych;
 
     /**
      * @var bool $dostawaSamochodemDedykowanym
      */
-    private $dostawaSamochodemDedykowanym;
+    protected $dostawaSamochodemDedykowanym;
 
     /**
      * @var bool $zmianaDanychAdresowych
      */
-    private $zmianaDanychAdresowych;
+    protected $zmianaDanychAdresowych;
 
     /**
      * @var bool $ustalenieTerminuDostawy
      */
-    private $ustalenieTerminuDostawy;
+    protected $ustalenieTerminuDostawy;
 
     /**
      * @var bool $samochodZWinda
      */
-    private $samochodZWinda;
+    protected $samochodZWinda;
 
     /**
      * @var bool $zabranieOpakowania
      */
-    private $zabranieOpakowania;
+    protected $zabranieOpakowania;
 
     /**
      * @var bool $wniesienie
      */
-    private $wniesienie;
+    protected $wniesienie;
 
     /**
      * @var bool $awizoSMS
      */
-    private $awizoSMS;
+    protected $awizoSMS;
 
     /**
      * @var \Abryb\ENadawca\Type\AdresType $miejsceOdbioru
      */
-    private $miejsceOdbioru;
+    protected $miejsceOdbioru;
 
     /**
      * @var \Abryb\ENadawca\Type\AdresType $miejsceDoreczenia
      */
-    private $miejsceDoreczenia;
+    protected $miejsceDoreczenia;
 
     /**
      * @var \Abryb\ENadawca\Type\PaletaType $paleta
      */
-    private $paleta;
+    protected $paleta;
 
     /**
      * @var \Abryb\ENadawca\Type\PlatnikType $platnik
      */
-    private $platnik;
+    protected $platnik;
 
     /**
      * @var \Abryb\ENadawca\Type\PobranieType $pobranie
      */
-    private $pobranie;
+    protected $pobranie;
 
     /**
      * @var \Abryb\ENadawca\Type\SubPrzesylkaPaletowaType[] $subPaleta
      */
-    private $subPaleta = [
+    protected $subPaleta = [
     ];
 
     /**
      * @var \Abryb\ENadawca\Type\DaneSentType[] $daneSent
      */
-    private $daneSent = [
+    protected $daneSent = [
     ];
 
     /**
      * @var \Abryb\ENadawca\Type\AwizacjaType $awizacja
      */
-    private $awizacja;
+    protected $awizacja;
 
     /**
      * Gets as zawartosc

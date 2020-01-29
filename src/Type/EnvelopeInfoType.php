@@ -14,22 +14,22 @@ class EnvelopeInfoType
     /**
      * @var int $idEnvelope
      */
-    private $idEnvelope;
+    protected $idEnvelope;
 
     /**
      * @var string $envelopeStatus
      */
-    private $envelopeStatus;
+    protected $envelopeStatus;
 
     /**
      * @var \DateTime $dataTransmisji
      */
-    private $dataTransmisji;
+    protected $dataTransmisji;
 
     /**
      * @var \Abryb\ENadawca\Type\ErrorType[] $error
      */
-    private $error = [
+    protected $error = [
     ];
 
     /**

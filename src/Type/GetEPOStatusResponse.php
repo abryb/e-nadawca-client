@@ -12,13 +12,13 @@ class GetEPOStatusResponse
     /**
      * @var \Abryb\ENadawca\Type\PrzesylkaEPOType[] $epo
      */
-    private $epo = [
+    protected $epo = [
     ];
 
     /**
      * @var \Abryb\ENadawca\Type\ErrorType[] $error
      */
-    private $error = [
+    protected $error = [
     ];
 
     /**

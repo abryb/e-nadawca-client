@@ -15,7 +15,7 @@ class EPOExtendedType extends EPOType
     /**
      * @var string $zasadySpecjalne
      */
-    private $zasadySpecjalne;
+    protected $zasadySpecjalne;
 
     /**
      * Gets as zasadySpecjalne

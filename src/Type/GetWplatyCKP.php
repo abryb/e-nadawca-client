@@ -12,17 +12,17 @@ class GetWplatyCKP
     /**
      * @var string $numerNadania
      */
-    private $numerNadania;
+    protected $numerNadania;
 
     /**
      * @var \DateTime $startDate
      */
-    private $startDate;
+    protected $startDate;
 
     /**
      * @var \DateTime $stopDate
      */
-    private $stopDate;
+    protected $stopDate;
 
     /**
      * Gets as numerNadania

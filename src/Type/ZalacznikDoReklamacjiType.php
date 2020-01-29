@@ -14,17 +14,17 @@ class ZalacznikDoReklamacjiType
     /**
      * @var mixed $fileContent
      */
-    private $fileContent;
+    protected $fileContent;
 
     /**
      * @var string $fileName
      */
-    private $fileName;
+    protected $fileName;
 
     /**
      * @var string $fileDesc
      */
-    private $fileDesc;
+    protected $fileDesc;
 
     /**
      * Gets as fileContent

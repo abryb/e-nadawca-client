@@ -14,12 +14,12 @@ class UslugiType
     /**
      * @var string $id
      */
-    private $id;
+    protected $id;
 
     /**
      * @var string $opis
      */
-    private $opis;
+    protected $opis;
 
     /**
      * Gets as id

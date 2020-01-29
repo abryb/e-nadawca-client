@@ -14,17 +14,17 @@ class PowodReklamacjiType
     /**
      * @var int $idPowodGlowny
      */
-    private $idPowodGlowny;
+    protected $idPowodGlowny;
 
     /**
      * @var string $powodGlownyOpis
      */
-    private $powodGlownyOpis;
+    protected $powodGlownyOpis;
 
     /**
      * @var \Abryb\ENadawca\Type\PowodSzczegolowyType[] $powodSzczegolowy
      */
-    private $powodSzczegolowy = [
+    protected $powodSzczegolowy = [
     ];
 
     /**

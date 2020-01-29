@@ -14,17 +14,17 @@ class OdbiorPrzesylkiOdNadawcyType
     /**
      * @var bool $wSobote
      */
-    private $wSobote;
+    protected $wSobote;
 
     /**
      * @var bool $wNiedzieleLubSwieto
      */
-    private $wNiedzieleLubSwieto;
+    protected $wNiedzieleLubSwieto;
 
     /**
      * @var bool $wGodzinachOd20Do7
      */
-    private $wGodzinachOd20Do7;
+    protected $wGodzinachOd20Do7;
 
     /**
      * Gets as wSobote

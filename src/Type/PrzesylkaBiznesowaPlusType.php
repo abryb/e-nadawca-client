@@ -14,110 +14,110 @@ class PrzesylkaBiznesowaPlusType extends PrzesylkaRejestrowanaType
     /**
      * @var bool $posteRestante
      */
-    private $posteRestante;
+    protected $posteRestante;
 
     /**
      * @var int $masa
      */
-    private $masa;
+    protected $masa;
 
     /**
      * @var string $gabaryt
      */
-    private $gabaryt;
+    protected $gabaryt;
 
     /**
      * @var int $wartosc
      */
-    private $wartosc;
+    protected $wartosc;
 
     /**
      * @var int $kwotaTranzakcji
      */
-    private $kwotaTranzakcji;
+    protected $kwotaTranzakcji;
 
     /**
      * @var bool $ostroznie
      */
-    private $ostroznie;
+    protected $ostroznie;
 
     /**
      * @var string $kategoria
      */
-    private $kategoria;
+    protected $kategoria;
 
     /**
      * @var int $iloscPotwierdzenOdbioru
      */
-    private $iloscPotwierdzenOdbioru;
+    protected $iloscPotwierdzenOdbioru;
 
     /**
      * @var bool $zwrotDoslanie
      */
-    private $zwrotDoslanie;
+    protected $zwrotDoslanie;
 
     /**
      * @var string $eKontaktAdresata
      */
-    private $eKontaktAdresata;
+    protected $eKontaktAdresata;
 
     /**
      * @var string $eSposobPowiadomieniaAdresata
      */
-    private $eSposobPowiadomieniaAdresata;
+    protected $eSposobPowiadomieniaAdresata;
 
     /**
      * @var string $numerPrzesylkiKlienta
      */
-    private $numerPrzesylkiKlienta;
+    protected $numerPrzesylkiKlienta;
 
     /**
      * @var int $iloscDniOczekiwaniaNaWydanie
      */
-    private $iloscDniOczekiwaniaNaWydanie;
+    protected $iloscDniOczekiwaniaNaWydanie;
 
     /**
      * @var \DateTime $oczekiwanyTerminDoreczenia
      */
-    private $oczekiwanyTerminDoreczenia;
+    protected $oczekiwanyTerminDoreczenia;
 
     /**
      * @var string $terminRodzajPlus
      */
-    private $terminRodzajPlus;
+    protected $terminRodzajPlus;
 
     /**
      * @var string $numerTransakcjiOdbioru
      */
-    private $numerTransakcjiOdbioru;
+    protected $numerTransakcjiOdbioru;
 
     /**
      * @var \Abryb\ENadawca\Type\PobranieType $pobranie
      */
-    private $pobranie;
+    protected $pobranie;
 
     /**
      * Wystarczy przesłac obiekt z ustawionym id reszta pól moż ezostać pominięta (aby zmniejszyć ilośc danych do tansmisji)
      *
      * @var \Abryb\ENadawca\Type\PlacowkaPocztowaType $urzadWydaniaPrzesylki
      */
-    private $urzadWydaniaPrzesylki;
+    protected $urzadWydaniaPrzesylki;
 
     /**
      * @var \Abryb\ENadawca\Type\SubPrzesylkaBiznesowaPlusType[] $subPrzesylka
      */
-    private $subPrzesylka = [
+    protected $subPrzesylka = [
     ];
 
     /**
      * @var \DateTime $dataDrugiejProbyDoreczenia
      */
-    private $dataDrugiejProbyDoreczenia;
+    protected $dataDrugiejProbyDoreczenia;
 
     /**
      * @var int $drugaProbaDoreczeniaPoLiczbieDni
      */
-    private $drugaProbaDoreczeniaPoLiczbieDni;
+    protected $drugaProbaDoreczeniaPoLiczbieDni;
 
     /**
      * Gets as posteRestante

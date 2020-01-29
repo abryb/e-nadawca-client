@@ -12,7 +12,7 @@ class GetAccountListResponse
     /**
      * @var \Abryb\ENadawca\Type\AccountType[] $account
      */
-    private $account = [
+    protected $account = [
     ];
 
     /**

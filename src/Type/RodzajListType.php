@@ -14,12 +14,12 @@ class RodzajListType
     /**
      * @var bool $polecony
      */
-    private $polecony;
+    protected $polecony;
 
     /**
      * @var string $kategoria
      */
-    private $kategoria;
+    protected $kategoria;
 
     /**
      * Gets as polecony

@@ -12,13 +12,13 @@ class SetJednostkaOrganizacyjnaResponse
     /**
      * @var \Abryb\ENadawca\Type\ErrorType[] $error
      */
-    private $error = [
+    protected $error = [
     ];
 
     /**
      * @var \Abryb\ENadawca\Type\JednostkaOrganizacyjnaType[] $jednostkaOrganizacyjna
      */
-    private $jednostkaOrganizacyjna = [
+    protected $jednostkaOrganizacyjna = [
     ];
 
     /**

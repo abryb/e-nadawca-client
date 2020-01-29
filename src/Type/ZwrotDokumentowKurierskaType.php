@@ -14,17 +14,17 @@ class ZwrotDokumentowKurierskaType
     /**
      * @var string $rodzajPocztex
      */
-    private $rodzajPocztex;
+    protected $rodzajPocztex;
 
     /**
      * @var string $rodzajPaczka
      */
-    private $rodzajPaczka;
+    protected $rodzajPaczka;
 
     /**
      * @var \Abryb\ENadawca\Type\RodzajListType $rodzajList
      */
-    private $rodzajList;
+    protected $rodzajList;
 
     /**
      * Gets as rodzajPocztex

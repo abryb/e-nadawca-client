@@ -14,118 +14,118 @@ class UslugaKurierskaType extends PrzesylkaRejestrowanaType
     /**
      * @var string $zasadySpecjalne
      */
-    private $zasadySpecjalne;
+    protected $zasadySpecjalne;
 
     /**
      * @var int $masa
      */
-    private $masa;
+    protected $masa;
 
     /**
      * @var int $wartosc
      */
-    private $wartosc;
+    protected $wartosc;
 
     /**
      * @var bool $ponadgabaryt
      */
-    private $ponadgabaryt;
+    protected $ponadgabaryt;
 
     /**
      * @var int $odleglosc
      */
-    private $odleglosc;
+    protected $odleglosc;
 
     /**
      * @var string $zawartosc
      */
-    private $zawartosc;
+    protected $zawartosc;
 
     /**
      * @var bool $sprawdzenieZawartosciPrzesylkiPrzezOdbiorce
      */
-    private $sprawdzenieZawartosciPrzesylkiPrzezOdbiorce;
+    protected $sprawdzenieZawartosciPrzesylkiPrzezOdbiorce;
 
     /**
      * @var bool $ostroznie
      */
-    private $ostroznie;
+    protected $ostroznie;
 
     /**
      * @var string $uiszczaOplate
      */
-    private $uiszczaOplate;
+    protected $uiszczaOplate;
 
     /**
      * @var string $termin
      */
-    private $termin;
+    protected $termin;
 
     /**
      * @var string $opakowanie
      */
-    private $opakowanie;
+    protected $opakowanie;
 
     /**
      * @var string $numerPrzesylkiKlienta
      */
-    private $numerPrzesylkiKlienta;
+    protected $numerPrzesylkiKlienta;
 
     /**
      * @var string $numerTransakcjiOdbioru
      */
-    private $numerTransakcjiOdbioru;
+    protected $numerTransakcjiOdbioru;
 
     /**
      * @var \Abryb\ENadawca\Type\PobranieType $pobranie
      */
-    private $pobranie;
+    protected $pobranie;
 
     /**
      * @var \Abryb\ENadawca\Type\OdbiorPrzesylkiOdNadawcyType $odbiorPrzesylkiOdNadawcy
      */
-    private $odbiorPrzesylkiOdNadawcy;
+    protected $odbiorPrzesylkiOdNadawcy;
 
     /**
      * @var \Abryb\ENadawca\Type\PotwierdzenieDoreczeniaType $potwierdzenieDoreczenia
      */
-    private $potwierdzenieDoreczenia;
+    protected $potwierdzenieDoreczenia;
 
     /**
      * @var \Abryb\ENadawca\Type\UrzadWydaniaEPrzesylkiType $urzadWydaniaEPrzesylki
      */
-    private $urzadWydaniaEPrzesylki;
+    protected $urzadWydaniaEPrzesylki;
 
     /**
      * @var \Abryb\ENadawca\Type\SubUslugaKurierskaType[] $subPrzesylka
      */
-    private $subPrzesylka = [
+    protected $subPrzesylka = [
     ];
 
     /**
      * @var \Abryb\ENadawca\Type\PotwierdzenieOdbioruKurierskaType $potwierdzenieOdbioru
      */
-    private $potwierdzenieOdbioru;
+    protected $potwierdzenieOdbioru;
 
     /**
      * @var \Abryb\ENadawca\Type\UbezpieczenieType $ubezpieczenie
      */
-    private $ubezpieczenie;
+    protected $ubezpieczenie;
 
     /**
      * @var \Abryb\ENadawca\Type\ZwrotDokumentowKurierskaType $zwrotDokumentow
      */
-    private $zwrotDokumentow;
+    protected $zwrotDokumentow;
 
     /**
      * @var \Abryb\ENadawca\Type\DoreczenieUslugaKurierskaType $doreczenie
      */
-    private $doreczenie;
+    protected $doreczenie;
 
     /**
      * @var \Abryb\ENadawca\Type\EPOType $epo
      */
-    private $epo;
+    protected $epo;
 
     /**
      * Gets as zasadySpecjalne

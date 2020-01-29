@@ -14,52 +14,52 @@ class SubUslugaPaczkowaType extends PrzesylkaType
     /**
      * @var string $numerNadania
      */
-    private $numerNadania;
+    protected $numerNadania;
 
     /**
      * @var int $masa
      */
-    private $masa;
+    protected $masa;
 
     /**
      * @var int $wartosc
      */
-    private $wartosc;
+    protected $wartosc;
 
     /**
      * @var bool $ostroznie
      */
-    private $ostroznie;
+    protected $ostroznie;
 
     /**
      * @var string $opakowanie
      */
-    private $opakowanie;
+    protected $opakowanie;
 
     /**
      * @var bool $ponadgabaryt
      */
-    private $ponadgabaryt;
+    protected $ponadgabaryt;
 
     /**
      * @var string $numerPrzesylkiKlienta
      */
-    private $numerPrzesylkiKlienta;
+    protected $numerPrzesylkiKlienta;
 
     /**
      * @var string $gabaryt
      */
-    private $gabaryt;
+    protected $gabaryt;
 
     /**
      * @var \Abryb\ENadawca\Type\PobranieType $pobranie
      */
-    private $pobranie;
+    protected $pobranie;
 
     /**
      * @var \Abryb\ENadawca\Type\UbezpieczenieType $ubezpieczenie
      */
-    private $ubezpieczenie;
+    protected $ubezpieczenie;
 
     /**
      * Gets as numerNadania

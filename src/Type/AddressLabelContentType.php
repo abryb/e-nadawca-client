@@ -14,17 +14,17 @@ class AddressLabelContentType
     /**
      * @var string $nrNadania
      */
-    private $nrNadania;
+    protected $nrNadania;
 
     /**
      * @var string $guid
      */
-    private $guid;
+    protected $guid;
 
     /**
      * @var mixed $pdfContent
      */
-    private $pdfContent;
+    protected $pdfContent;
 
     /**
      * Gets as nrNadania

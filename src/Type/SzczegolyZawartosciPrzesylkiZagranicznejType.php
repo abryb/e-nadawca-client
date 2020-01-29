@@ -14,36 +14,36 @@ class SzczegolyZawartosciPrzesylkiZagranicznejType
     /**
      * @var string $okreslenieZawartosci
      */
-    private $okreslenieZawartosci;
+    protected $okreslenieZawartosci;
 
     /**
      * @var int $ilosc
      */
-    private $ilosc;
+    protected $ilosc;
 
     /**
      * @var int $masaNetto
      */
-    private $masaNetto;
+    protected $masaNetto;
 
     /**
      * @var float $wartosc
      */
-    private $wartosc;
+    protected $wartosc;
 
     /**
      * Numer taryfy Zharmonizowanego Systemu (HS)
      *
      * @var string $numerTaryfyHs
      */
-    private $numerTaryfyHs;
+    protected $numerTaryfyHs;
 
     /**
      * Kod ISO (alfa-2) kraju pochodzenia opisywanej zawartości
      *
      * @var string $krajPochodzeniaKodAlfa2
      */
-    private $krajPochodzeniaKodAlfa2;
+    protected $krajPochodzeniaKodAlfa2;
 
     /**
      * Gets as okreslenieZawartosci

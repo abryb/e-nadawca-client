@@ -12,7 +12,7 @@ class GetEZDO
     /**
      * @var int $idEZDOPakiet
      */
-    private $idEZDOPakiet;
+    protected $idEZDOPakiet;
 
     /**
      * Gets as idEZDOPakiet

@@ -12,17 +12,17 @@ class MoveShipments
     /**
      * @var int $idBuforFrom
      */
-    private $idBuforFrom;
+    protected $idBuforFrom;
 
     /**
      * @var int $idBuforTo
      */
-    private $idBuforTo;
+    protected $idBuforTo;
 
     /**
      * @var string[] $guid
      */
-    private $guid = [
+    protected $guid = [
     ];
 
     /**

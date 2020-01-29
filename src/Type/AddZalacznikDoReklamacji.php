@@ -12,12 +12,12 @@ class AddZalacznikDoReklamacji
     /**
      * @var string $idReklamacja
      */
-    private $idReklamacja;
+    protected $idReklamacja;
 
     /**
      * @var \Abryb\ENadawca\Type\ZalacznikDoReklamacjiType[] $zalacznik
      */
-    private $zalacznik = [
+    protected $zalacznik = [
     ];
 
     /**

@@ -14,37 +14,37 @@ class PaczkaPocztowaPLUSType extends PrzesylkaRejestrowanaType
     /**
      * @var bool $posteRestante
      */
-    private $posteRestante;
+    protected $posteRestante;
 
     /**
      * @var int $iloscPotwierdzenOdbioru
      */
-    private $iloscPotwierdzenOdbioru;
+    protected $iloscPotwierdzenOdbioru;
 
     /**
      * @var string $kategoria
      */
-    private $kategoria;
+    protected $kategoria;
 
     /**
      * @var string $gabaryt
      */
-    private $gabaryt;
+    protected $gabaryt;
 
     /**
      * @var int $wartosc
      */
-    private $wartosc;
+    protected $wartosc;
 
     /**
      * @var int $masa
      */
-    private $masa;
+    protected $masa;
 
     /**
      * @var bool $zwrotDoslanie
      */
-    private $zwrotDoslanie;
+    protected $zwrotDoslanie;
 
     /**
      * Gets as posteRestante

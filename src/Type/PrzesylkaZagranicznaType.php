@@ -14,42 +14,42 @@ class PrzesylkaZagranicznaType extends PrzesylkaNieRejestrowanaType
     /**
      * @var bool $posteRestante
      */
-    private $posteRestante;
+    protected $posteRestante;
 
     /**
      * @var string $kategoria
      */
-    private $kategoria;
+    protected $kategoria;
 
     /**
      * @var int $masa
      */
-    private $masa;
+    protected $masa;
 
     /**
      * @var bool $ekspres
      */
-    private $ekspres;
+    protected $ekspres;
 
     /**
      * @var string $kraj
      */
-    private $kraj;
+    protected $kraj;
 
     /**
      * @var \Abryb\ENadawca\Type\AdresType $adres
      */
-    private $adres;
+    protected $adres;
 
     /**
      * @var \Abryb\ENadawca\Type\AdresType $nadawca
      */
-    private $nadawca;
+    protected $nadawca;
 
     /**
      * @var \Abryb\ENadawca\Type\DeklaracjaCelna2Type $deklaracjaCelna2
      */
-    private $deklaracjaCelna2;
+    protected $deklaracjaCelna2;
 
     /**
      * Gets as posteRestante

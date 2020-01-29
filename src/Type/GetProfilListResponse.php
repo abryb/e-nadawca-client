@@ -12,7 +12,7 @@ class GetProfilListResponse
     /**
      * @var \Abryb\ENadawca\Type\ProfilType[] $profil
      */
-    private $profil = [
+    protected $profil = [
     ];
 
     /**

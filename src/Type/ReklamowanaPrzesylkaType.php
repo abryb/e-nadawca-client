@@ -14,42 +14,42 @@ class ReklamowanaPrzesylkaType
     /**
      * @var \DateTime $dataNadania
      */
-    private $dataNadania;
+    protected $dataNadania;
 
     /**
      * @var int $urzadNadania
      */
-    private $urzadNadania;
+    protected $urzadNadania;
 
     /**
      * @var string $powodReklamacjiOpis
      */
-    private $powodReklamacjiOpis;
+    protected $powodReklamacjiOpis;
 
     /**
      * @var int $odszkodowanie
      */
-    private $odszkodowanie;
+    protected $odszkodowanie;
 
     /**
      * @var int $oplata
      */
-    private $oplata;
+    protected $oplata;
 
     /**
      * @var int $oczekiwaneOdszkodowanie
      */
-    private $oczekiwaneOdszkodowanie;
+    protected $oczekiwaneOdszkodowanie;
 
     /**
      * @var \Abryb\ENadawca\Type\PrzesylkaType $przesylka
      */
-    private $przesylka;
+    protected $przesylka;
 
     /**
      * @var \Abryb\ENadawca\Type\PowodReklamacjiType $powodReklamacji
      */
-    private $powodReklamacji;
+    protected $powodReklamacji;
 
     /**
      * Gets as dataNadania

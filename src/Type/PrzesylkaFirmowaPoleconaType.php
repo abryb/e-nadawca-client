@@ -14,47 +14,47 @@ class PrzesylkaFirmowaPoleconaType extends PrzesylkaRejestrowanaType
     /**
      * @var string $zasadySpecjalne
      */
-    private $zasadySpecjalne;
+    protected $zasadySpecjalne;
 
     /**
      * @var bool $posteRestante
      */
-    private $posteRestante;
+    protected $posteRestante;
 
     /**
      * @var int $iloscPotwierdzenOdbioru
      */
-    private $iloscPotwierdzenOdbioru;
+    protected $iloscPotwierdzenOdbioru;
 
     /**
      * @var int $masa
      */
-    private $masa;
+    protected $masa;
 
     /**
      * @var bool $miejscowa
      */
-    private $miejscowa;
+    protected $miejscowa;
 
     /**
      * @var bool $obszarMiasto
      */
-    private $obszarMiasto;
+    protected $obszarMiasto;
 
     /**
      * @var string $kategoria
      */
-    private $kategoria;
+    protected $kategoria;
 
     /**
      * @var string $gabaryt
      */
-    private $gabaryt;
+    protected $gabaryt;
 
     /**
      * @var \Abryb\ENadawca\Type\EPOType $epo
      */
-    private $epo;
+    protected $epo;
 
     /**
      * Gets as zasadySpecjalne

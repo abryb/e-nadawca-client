@@ -12,7 +12,7 @@ class GetZapowiedziFakturResponse
     /**
      * @var mixed[] $zapowiedzFakturyZipFile
      */
-    private $zapowiedzFakturyZipFile = [
+    protected $zapowiedzFakturyZipFile = [
     ];
 
     /**

@@ -14,37 +14,37 @@ class DoreczenieType
     /**
      * @var \DateTime $oczekiwanyTerminDoreczenia
      */
-    private $oczekiwanyTerminDoreczenia;
+    protected $oczekiwanyTerminDoreczenia;
 
     /**
      * @var string $oczekiwanaGodzinaDoreczenia
      */
-    private $oczekiwanaGodzinaDoreczenia;
+    protected $oczekiwanaGodzinaDoreczenia;
 
     /**
      * @var bool $wSobote
      */
-    private $wSobote;
+    protected $wSobote;
 
     /**
      * @var bool $w90Minut
      */
-    private $w90Minut;
+    protected $w90Minut;
 
     /**
      * @var bool $wNiedzieleLubSwieto
      */
-    private $wNiedzieleLubSwieto;
+    protected $wNiedzieleLubSwieto;
 
     /**
      * @var bool $doRakWlasnych
      */
-    private $doRakWlasnych;
+    protected $doRakWlasnych;
 
     /**
      * @var bool $wGodzinachOd20Do7
      */
-    private $wGodzinachOd20Do7;
+    protected $wGodzinachOd20Do7;
 
     /**
      * Gets as oczekiwanyTerminDoreczenia

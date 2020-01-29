@@ -25,3 +25,7 @@ $client = ENadawcaClientFactory::createClient(
 $urzedyNadania = $client->getUrzedyNadania(new \Abryb\ENadawca\Type\GetUrzedyNadania());
 
 ```
+
+#### 3. Developing
+
+look at bin/generate.php file

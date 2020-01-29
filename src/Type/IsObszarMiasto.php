@@ -12,7 +12,7 @@ class IsObszarMiasto
     /**
      * @var \Abryb\ENadawca\Type\ObszarAdresowyType[] $adres
      */
-    private $adres = [
+    protected $adres = [
     ];
 
     /**

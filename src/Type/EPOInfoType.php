@@ -14,17 +14,17 @@ class EPOInfoType
     /**
      * @var \Abryb\ENadawca\Type\AwizoPrzesylkiType $awizoPrzesylki
      */
-    private $awizoPrzesylki;
+    protected $awizoPrzesylki;
 
     /**
      * @var \Abryb\ENadawca\Type\DoreczeniePrzesylkiType $doreczeniePrzesylki
      */
-    private $doreczeniePrzesylki;
+    protected $doreczeniePrzesylki;
 
     /**
      * @var \Abryb\ENadawca\Type\ZwrotPrzesylkiType $zwrotPrzesylki
      */
-    private $zwrotPrzesylki;
+    protected $zwrotPrzesylki;
 
     /**
      * Gets as awizoPrzesylki

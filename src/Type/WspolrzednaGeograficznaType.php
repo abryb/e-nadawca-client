@@ -14,22 +14,22 @@ class WspolrzednaGeograficznaType
     /**
      * @var float $dec
      */
-    private $dec;
+    protected $dec;
 
     /**
      * @var int $stopien
      */
-    private $stopien;
+    protected $stopien;
 
     /**
      * @var int $minuta
      */
-    private $minuta;
+    protected $minuta;
 
     /**
      * @var float $sekunda
      */
-    private $sekunda;
+    protected $sekunda;
 
     /**
      * Gets as dec

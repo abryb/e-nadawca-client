@@ -12,7 +12,7 @@ class WyslijLinkaOStatusieEZwrotuResponse
     /**
      * @var \Abryb\ENadawca\Type\ErrorType[] $error
      */
-    private $error = [
+    protected $error = [
     ];
 
     /**

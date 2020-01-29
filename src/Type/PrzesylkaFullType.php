@@ -14,12 +14,12 @@ class PrzesylkaFullType
     /**
      * @var \Abryb\ENadawca\Type\PrzesylkaShortType $przesylkaShort
      */
-    private $przesylkaShort;
+    protected $przesylkaShort;
 
     /**
      * @var \Abryb\ENadawca\Type\PrzesylkaType $przesylkaFull
      */
-    private $przesylkaFull;
+    protected $przesylkaFull;
 
     /**
      * Gets as przesylkaShort

@@ -14,27 +14,27 @@ class PobranieType
     /**
      * @var string $sposobPobrania
      */
-    private $sposobPobrania;
+    protected $sposobPobrania;
 
     /**
      * @var int $kwotaPobrania
      */
-    private $kwotaPobrania;
+    protected $kwotaPobrania;
 
     /**
      * @var string $nrb
      */
-    private $nrb;
+    protected $nrb;
 
     /**
      * @var string $tytulem
      */
-    private $tytulem;
+    protected $tytulem;
 
     /**
      * @var bool $sprawdzenieZawartosciPrzesylkiPrzezOdbiorce
      */
-    private $sprawdzenieZawartosciPrzesylkiPrzezOdbiorce;
+    protected $sprawdzenieZawartosciPrzesylkiPrzezOdbiorce;
 
     /**
      * Gets as sposobPobrania

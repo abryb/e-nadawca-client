@@ -14,12 +14,12 @@ class PrintType
     /**
      * @var string $kind
      */
-    private $kind;
+    protected $kind;
 
     /**
      * @var string $method
      */
-    private $method;
+    protected $method;
 
     /**
      * Gets as kind

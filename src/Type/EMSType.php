@@ -14,34 +14,34 @@ class EMSType extends PrzesylkaRejestrowanaType
     /**
      * @var string $typOpakowania
      */
-    private $typOpakowania;
+    protected $typOpakowania;
 
     /**
      * @var int $masa
      */
-    private $masa;
+    protected $masa;
 
     /**
      * @var bool $zalaczoneDokumenty
      */
-    private $zalaczoneDokumenty;
+    protected $zalaczoneDokumenty;
 
     /**
      * @var \Abryb\ENadawca\Type\UbezpieczenieType $ubezpieczenie
      */
-    private $ubezpieczenie;
+    protected $ubezpieczenie;
 
     /**
      * Deklaracja celna - "deprecated" - zalecane jest ustawianie elementu deklaracjaCelna2
      *
      * @var \Abryb\ENadawca\Type\DeklaracjaCelnaType $deklaracjaCelna
      */
-    private $deklaracjaCelna;
+    protected $deklaracjaCelna;
 
     /**
      * @var \Abryb\ENadawca\Type\DeklaracjaCelna2Type $deklaracjaCelna2
      */
-    private $deklaracjaCelna2;
+    protected $deklaracjaCelna2;
 
     /**
      * Gets as typOpakowania

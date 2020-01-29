@@ -14,22 +14,22 @@ class DoreczenieUslugaPocztowaType
     /**
      * @var \DateTime $oczekiwanyTerminDoreczenia
      */
-    private $oczekiwanyTerminDoreczenia;
+    protected $oczekiwanyTerminDoreczenia;
 
     /**
      * @var string $oczekiwanaGodzinaDoreczenia
      */
-    private $oczekiwanaGodzinaDoreczenia;
+    protected $oczekiwanaGodzinaDoreczenia;
 
     /**
      * @var bool $wSobote
      */
-    private $wSobote;
+    protected $wSobote;
 
     /**
      * @var bool $doRakWlasnych
      */
-    private $doRakWlasnych;
+    protected $doRakWlasnych;
 
     /**
      * Gets as oczekiwanyTerminDoreczenia

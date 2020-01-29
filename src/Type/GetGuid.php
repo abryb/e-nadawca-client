@@ -12,7 +12,7 @@ class GetGuid
     /**
      * @var int $ilosc
      */
-    private $ilosc;
+    protected $ilosc;
 
     /**
      * Gets as ilosc

@@ -12,7 +12,7 @@ class GetKierunkiInfo
     /**
      * @var string $plan
      */
-    private $plan;
+    protected $plan;
 
     /**
      * Gets as plan

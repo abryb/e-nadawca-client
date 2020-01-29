@@ -12,7 +12,7 @@ class UpdateShopEZwroty
     /**
      * @var \Abryb\ENadawca\Type\ShopEZwrotyType $shop
      */
-    private $shop;
+    protected $shop;
 
     /**
      * Gets as shop

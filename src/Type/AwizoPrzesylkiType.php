@@ -14,22 +14,22 @@ class AwizoPrzesylkiType
     /**
      * @var \DateTime $dataPierwszegoAwizowania
      */
-    private $dataPierwszegoAwizowania;
+    protected $dataPierwszegoAwizowania;
 
     /**
      * @var \DateTime $dataDrugiegoAwizowania
      */
-    private $dataDrugiegoAwizowania;
+    protected $dataDrugiegoAwizowania;
 
     /**
      * @var string $miejscePozostawienia
      */
-    private $miejscePozostawienia;
+    protected $miejscePozostawienia;
 
     /**
      * @var int $idPlacowkaPocztowaWydajaca
      */
-    private $idPlacowkaPocztowaWydajaca;
+    protected $idPlacowkaPocztowaWydajaca;
 
     /**
      * Gets as dataPierwszegoAwizowania

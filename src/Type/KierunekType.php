@@ -14,22 +14,22 @@ class KierunekType
     /**
      * @var int $id
      */
-    private $id;
+    protected $id;
 
     /**
      * @var string $opis
      */
-    private $opis;
+    protected $opis;
 
     /**
      * @var string $pna
      */
-    private $pna;
+    protected $pna;
 
     /**
      * @var string[] $kodPocztowy
      */
-    private $kodPocztowy = [
+    protected $kodPocztowy = [
     ];
 
     /**

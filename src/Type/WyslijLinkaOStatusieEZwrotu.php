@@ -12,7 +12,7 @@ class WyslijLinkaOStatusieEZwrotu
     /**
      * @var string[] $guidZgodaEZwrot
      */
-    private $guidZgodaEZwrot = [
+    protected $guidZgodaEZwrot = [
     ];
 
     /**

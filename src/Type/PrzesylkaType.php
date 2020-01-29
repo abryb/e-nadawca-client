@@ -14,22 +14,22 @@ class PrzesylkaType
     /**
      * @var string $guid
      */
-    private $guid;
+    protected $guid;
 
     /**
      * @var string $pakietGuid
      */
-    private $pakietGuid;
+    protected $pakietGuid;
 
     /**
      * @var string $opakowanieGuid
      */
-    private $opakowanieGuid;
+    protected $opakowanieGuid;
 
     /**
      * @var string $opis
      */
-    private $opis;
+    protected $opis;
 
     /**
      * Gets as guid

@@ -14,7 +14,7 @@ class PrzesylkaNieRejestrowanaType extends PrzesylkaType
     /**
      * @var int $ilosc
      */
-    private $ilosc;
+    protected $ilosc;
 
     /**
      * Gets as ilosc

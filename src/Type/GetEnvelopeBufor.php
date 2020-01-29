@@ -12,7 +12,7 @@ class GetEnvelopeBufor
     /**
      * @var int $idBufor
      */
-    private $idBufor;
+    protected $idBufor;
 
     /**
      * Gets as idBufor

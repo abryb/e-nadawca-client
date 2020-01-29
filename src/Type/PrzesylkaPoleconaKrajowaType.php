@@ -14,66 +14,66 @@ class PrzesylkaPoleconaKrajowaType extends PrzesylkaRejestrowanaType
     /**
      * @var string $zasadySpecjalne
      */
-    private $zasadySpecjalne;
+    protected $zasadySpecjalne;
 
     /**
      * @var bool $posteRestante
      */
-    private $posteRestante;
+    protected $posteRestante;
 
     /**
      * @var int $iloscPotwierdzenOdbioru
      */
-    private $iloscPotwierdzenOdbioru;
+    protected $iloscPotwierdzenOdbioru;
 
     /**
      * @var string $kategoria
      */
-    private $kategoria;
+    protected $kategoria;
 
     /**
      * Gabaryt przesyłki
      *
      * @var string $gabaryt
      */
-    private $gabaryt;
+    protected $gabaryt;
 
     /**
      * Format przesyłki
      *
      * @var string $format
      */
-    private $format;
+    protected $format;
 
     /**
      * @var int $masa
      */
-    private $masa;
+    protected $masa;
 
     /**
      * @var bool $egzemplarzBiblioteczny
      */
-    private $egzemplarzBiblioteczny;
+    protected $egzemplarzBiblioteczny;
 
     /**
      * @var bool $dlaOciemnialych
      */
-    private $dlaOciemnialych;
+    protected $dlaOciemnialych;
 
     /**
      * @var bool $obszarMiasto
      */
-    private $obszarMiasto;
+    protected $obszarMiasto;
 
     /**
      * @var bool $miejscowa
      */
-    private $miejscowa;
+    protected $miejscowa;
 
     /**
      * @var \Abryb\ENadawca\Type\EPOType $epo
      */
-    private $epo;
+    protected $epo;
 
     /**
      * Gets as zasadySpecjalne

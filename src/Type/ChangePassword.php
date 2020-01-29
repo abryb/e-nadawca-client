@@ -12,7 +12,7 @@ class ChangePassword
     /**
      * @var string $newPassword
      */
-    private $newPassword;
+    protected $newPassword;
 
     /**
      * Gets as newPassword

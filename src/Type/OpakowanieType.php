@@ -14,27 +14,27 @@ class OpakowanieType
     /**
      * @var string $opakowanieGuid
      */
-    private $opakowanieGuid;
+    protected $opakowanieGuid;
 
     /**
      * @var string $typ
      */
-    private $typ;
+    protected $typ;
 
     /**
      * @var string $sygnatura
      */
-    private $sygnatura;
+    protected $sygnatura;
 
     /**
      * @var int $ilosc
      */
-    private $ilosc;
+    protected $ilosc;
 
     /**
      * @var string $numerOpakowaniaZbiorczego
      */
-    private $numerOpakowaniaZbiorczego;
+    protected $numerOpakowaniaZbiorczego;
 
     /**
      * Gets as opakowanieGuid

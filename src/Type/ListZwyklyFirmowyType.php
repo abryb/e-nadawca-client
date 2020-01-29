@@ -14,47 +14,47 @@ class ListZwyklyFirmowyType extends PrzesylkaNieRejestrowanaType
     /**
      * @var bool $posteRestante
      */
-    private $posteRestante;
+    protected $posteRestante;
 
     /**
      * @var bool $miejscowa
      */
-    private $miejscowa;
+    protected $miejscowa;
 
     /**
      * @var int $masa
      */
-    private $masa;
+    protected $masa;
 
     /**
      * @var bool $egzemplarzBiblioteczny
      */
-    private $egzemplarzBiblioteczny;
+    protected $egzemplarzBiblioteczny;
 
     /**
      * @var bool $dlaOciemnialych
      */
-    private $dlaOciemnialych;
+    protected $dlaOciemnialych;
 
     /**
      * @var bool $obszarMiasto
      */
-    private $obszarMiasto;
+    protected $obszarMiasto;
 
     /**
      * @var string $kategoria
      */
-    private $kategoria;
+    protected $kategoria;
 
     /**
      * @var string $gabaryt
      */
-    private $gabaryt;
+    protected $gabaryt;
 
     /**
      * @var \Abryb\ENadawca\Type\AdresType $adres
      */
-    private $adres;
+    protected $adres;
 
     /**
      * Gets as posteRestante

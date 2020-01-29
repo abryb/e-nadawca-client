@@ -14,17 +14,17 @@ class ZwrotType
     /**
      * @var int $zwrotPoLiczbieDni
      */
-    private $zwrotPoLiczbieDni;
+    protected $zwrotPoLiczbieDni;
 
     /**
      * @var bool $traktowacJakPorzucona
      */
-    private $traktowacJakPorzucona;
+    protected $traktowacJakPorzucona;
 
     /**
      * @var string $sposobZwrotu
      */
-    private $sposobZwrotu;
+    protected $sposobZwrotu;
 
     /**
      * Gets as zwrotPoLiczbieDni

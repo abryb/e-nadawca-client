@@ -14,22 +14,22 @@ class AddShipmentResponseItemType
     /**
      * @var string $numerNadania
      */
-    private $numerNadania;
+    protected $numerNadania;
 
     /**
      * @var string $guid
      */
-    private $guid;
+    protected $guid;
 
     /**
      * @var string $numerTransakcjiOdbioru
      */
-    private $numerTransakcjiOdbioru;
+    protected $numerTransakcjiOdbioru;
 
     /**
      * @var \Abryb\ENadawca\Type\ErrorType[] $error
      */
-    private $error = [
+    protected $error = [
     ];
 
     /**

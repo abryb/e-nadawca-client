@@ -12,7 +12,7 @@ class AddRozbieznoscDoZapowiedziFaktur
     /**
      * @var mixed[] $rozbieznosciZipFile
      */
-    private $rozbieznosciZipFile = [
+    protected $rozbieznosciZipFile = [
     ];
 
     /**

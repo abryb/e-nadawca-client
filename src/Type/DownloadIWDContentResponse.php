@@ -12,12 +12,12 @@ class DownloadIWDContentResponse
     /**
      * @var mixed $iWDContent
      */
-    private $iWDContent;
+    protected $iWDContent;
 
     /**
      * @var \Abryb\ENadawca\Type\ErrorType[] $error
      */
-    private $error = [
+    protected $error = [
     ];
 
     /**

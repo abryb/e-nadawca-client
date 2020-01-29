@@ -12,13 +12,13 @@ class GetKierunkiResponse
     /**
      * @var \Abryb\ENadawca\Type\KierunekType[] $kierunek
      */
-    private $kierunek = [
+    protected $kierunek = [
     ];
 
     /**
      * @var \Abryb\ENadawca\Type\ErrorType[] $error
      */
-    private $error = [
+    protected $error = [
     ];
 
     /**

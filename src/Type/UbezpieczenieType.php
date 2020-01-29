@@ -14,12 +14,12 @@ class UbezpieczenieType
     /**
      * @var string $rodzaj
      */
-    private $rodzaj;
+    protected $rodzaj;
 
     /**
      * @var float $kwota
      */
-    private $kwota;
+    protected $kwota;
 
     /**
      * Gets as rodzaj

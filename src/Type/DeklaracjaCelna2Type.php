@@ -14,61 +14,61 @@ class DeklaracjaCelna2Type
     /**
      * @var string $rodzaj
      */
-    private $rodzaj;
+    protected $rodzaj;
 
     /**
      * @var string $zawartoscPrzesylki
      */
-    private $zawartoscPrzesylki;
+    protected $zawartoscPrzesylki;
 
     /**
      * @var \Abryb\ENadawca\Type\DokumentyTowarzyszaceType[] $dokumentyTowarzyszace
      */
-    private $dokumentyTowarzyszace = [
+    protected $dokumentyTowarzyszace = [
     ];
 
     /**
      * @var string $wyjasnienie
      */
-    private $wyjasnienie;
+    protected $wyjasnienie;
 
     /**
      * @var string $oplatyPocztowe
      */
-    private $oplatyPocztowe;
+    protected $oplatyPocztowe;
 
     /**
      * @var string $uwagi
      */
-    private $uwagi;
+    protected $uwagi;
 
     /**
      * @var string $numerReferencyjnyImportera
      */
-    private $numerReferencyjnyImportera;
+    protected $numerReferencyjnyImportera;
 
     /**
      * @var string $numerTelefonuImportera
      */
-    private $numerTelefonuImportera;
+    protected $numerTelefonuImportera;
 
     /**
      * Kod ISO waluty w której wyrażone są wartości pozycji podanych w elemencie szczegolyZawartosciPrzesylki
      *
      * @var string $walutaKodISO
      */
-    private $walutaKodISO;
+    protected $walutaKodISO;
 
     /**
      * @var \Abryb\ENadawca\Type\SzczegolyZawartosciPrzesylkiZagranicznejType[] $szczegolyZawartosciPrzesylki
      */
-    private $szczegolyZawartosciPrzesylki = [
+    protected $szczegolyZawartosciPrzesylki = [
     ];
 
     /**
      * @var string $numerReferencyjnyCelny
      */
-    private $numerReferencyjnyCelny;
+    protected $numerReferencyjnyCelny;
 
     /**
      * Gets as rodzaj

@@ -12,23 +12,23 @@ class SendEnvelope
     /**
      * @var int $urzadNadania
      */
-    private $urzadNadania;
+    protected $urzadNadania;
 
     /**
      * @var \Abryb\ENadawca\Type\PakietType[] $pakiet
      */
-    private $pakiet = [
+    protected $pakiet = [
     ];
 
     /**
      * @var int $idBufor
      */
-    private $idBufor;
+    protected $idBufor;
 
     /**
      * @var \Abryb\ENadawca\Type\ProfilType $profil
      */
-    private $profil;
+    protected $profil;
 
     /**
      * Gets as urzadNadania

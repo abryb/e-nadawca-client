@@ -14,49 +14,49 @@ class ListWartosciowyKrajowyType extends PrzesylkaRejestrowanaType
     /**
      * @var bool $posteRestante
      */
-    private $posteRestante;
+    protected $posteRestante;
 
     /**
      * @var int $wartosc
      */
-    private $wartosc;
+    protected $wartosc;
 
     /**
      * @var int $iloscPotwierdzenOdbioru
      */
-    private $iloscPotwierdzenOdbioru;
+    protected $iloscPotwierdzenOdbioru;
 
     /**
      * @var string $kategoria
      */
-    private $kategoria;
+    protected $kategoria;
 
     /**
      * Format przesyłki
      *
      * @var string $format
      */
-    private $format;
+    protected $format;
 
     /**
      * @var int $masa
      */
-    private $masa;
+    protected $masa;
 
     /**
      * @var string $numerWewnetrznyPrzesylki
      */
-    private $numerWewnetrznyPrzesylki;
+    protected $numerWewnetrznyPrzesylki;
 
     /**
      * @var bool $egzemplarzBiblioteczny
      */
-    private $egzemplarzBiblioteczny;
+    protected $egzemplarzBiblioteczny;
 
     /**
      * @var bool $dlaOciemnialych
      */
-    private $dlaOciemnialych;
+    protected $dlaOciemnialych;
 
     /**
      * Gets as posteRestante

@@ -12,7 +12,7 @@ class IsMiejscowa
     /**
      * @var \Abryb\ENadawca\Type\TrasaRequestType[] $trasaRequest
      */
-    private $trasaRequest = [
+    protected $trasaRequest = [
     ];
 
     /**

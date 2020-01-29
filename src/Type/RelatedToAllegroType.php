@@ -19,14 +19,14 @@ class RelatedToAllegroType
      *
      * @var string $id
      */
-    private $id;
+    protected $id;
 
     /**
      * Identyfikator sprzedającego w serwisie Allegro.
      *
      * @var string $sellerId
      */
-    private $sellerId;
+    protected $sellerId;
 
     /**
      * Źródło identyfikatora: MS - Menedżer
@@ -35,7 +35,7 @@ class RelatedToAllegroType
      *
      * @var string $channel
      */
-    private $channel;
+    protected $channel;
 
     /**
      * Identyfikator rodzaju dostawy, gdzie dla
@@ -45,7 +45,7 @@ class RelatedToAllegroType
      *
      * @var string $deliveryMethod
      */
-    private $deliveryMethod;
+    protected $deliveryMethod;
 
     /**
      * Gets as id

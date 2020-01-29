@@ -14,32 +14,32 @@ class SzczegolyDeklaracjiCelnejType
     /**
      * @var string $zawartosc
      */
-    private $zawartosc;
+    protected $zawartosc;
 
     /**
      * @var float $ilosc
      */
-    private $ilosc;
+    protected $ilosc;
 
     /**
      * @var int $masa
      */
-    private $masa;
+    protected $masa;
 
     /**
      * @var int $wartosc
      */
-    private $wartosc;
+    protected $wartosc;
 
     /**
      * @var string $numerTaryfowy
      */
-    private $numerTaryfowy;
+    protected $numerTaryfowy;
 
     /**
      * @var string $krajPochodzenia
      */
-    private $krajPochodzenia;
+    protected $krajPochodzenia;
 
     /**
      * Gets as zawartosc

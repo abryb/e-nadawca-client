@@ -4,6 +4,7 @@ var/*
 
 .php_cs.cache
 phpunit.phar
+.phpunit.result.cache
 vendor
 .idea
 test.php

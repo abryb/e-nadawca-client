@@ -14,47 +14,47 @@ class ReklamacjaRozpatrzonaType
     /**
      * @var string $guid
      */
-    private $guid;
+    protected $guid;
 
     /**
      * @var string $numerNadania
      */
-    private $numerNadania;
+    protected $numerNadania;
 
     /**
      * @var string $rozstrzygniecie
      */
-    private $rozstrzygniecie;
+    protected $rozstrzygniecie;
 
     /**
      * @var int $przyznaneOdszkodowanie
      */
-    private $przyznaneOdszkodowanie;
+    protected $przyznaneOdszkodowanie;
 
     /**
      * @var string $uzasadnienie
      */
-    private $uzasadnienie;
+    protected $uzasadnienie;
 
     /**
      * @var \DateTime $dataRozpatrzenia
      */
-    private $dataRozpatrzenia;
+    protected $dataRozpatrzenia;
 
     /**
      * @var string $nazwaJednostkiRozpatrujacej
      */
-    private $nazwaJednostkiRozpatrujacej;
+    protected $nazwaJednostkiRozpatrujacej;
 
     /**
      * @var string $osobaRozpatrujaca
      */
-    private $osobaRozpatrujaca;
+    protected $osobaRozpatrujaca;
 
     /**
      * @var string $idReklamacja
      */
-    private $idReklamacja;
+    protected $idReklamacja;
 
     /**
      * Gets as guid

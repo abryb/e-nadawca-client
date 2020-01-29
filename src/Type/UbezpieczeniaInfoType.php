@@ -14,12 +14,12 @@ class UbezpieczeniaInfoType
     /**
      * @var string $typPrzesylki
      */
-    private $typPrzesylki;
+    protected $typPrzesylki;
 
     /**
      * @var float $kwota
      */
-    private $kwota;
+    protected $kwota;
 
     /**
      * Gets as typPrzesylki

@@ -14,27 +14,27 @@ class BuforType
     /**
      * @var int $idBufor
      */
-    private $idBufor;
+    protected $idBufor;
 
     /**
      * @var \DateTime $dataNadania
      */
-    private $dataNadania;
+    protected $dataNadania;
 
     /**
      * @var int $urzadNadania
      */
-    private $urzadNadania;
+    protected $urzadNadania;
 
     /**
      * @var bool $active
      */
-    private $active;
+    protected $active;
 
     /**
      * @var string $opis
      */
-    private $opis;
+    protected $opis;
 
     /**
      * W przypadku ustawienia TRUE zostaną zmodyfikowane planowane daty nadania dla przesyłek znajdujących się w aktualizowanym buforze.
@@ -45,12 +45,12 @@ class BuforType
      *
      * @var bool $aktualizujPlanowanaDateNadaniaPrzesylek
      */
-    private $aktualizujPlanowanaDateNadaniaPrzesylek;
+    protected $aktualizujPlanowanaDateNadaniaPrzesylek;
 
     /**
      * @var \Abryb\ENadawca\Type\ProfilType $profil
      */
-    private $profil;
+    protected $profil;
 
     /**
      * Gets as idBufor

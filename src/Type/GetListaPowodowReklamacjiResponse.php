@@ -12,7 +12,7 @@ class GetListaPowodowReklamacjiResponse
     /**
      * @var \Abryb\ENadawca\Type\KategoriePowodowReklamacjiType[] $kategoriePowodowReklamacji
      */
-    private $kategoriePowodowReklamacji = [
+    protected $kategoriePowodowReklamacji = [
     ];
 
     /**

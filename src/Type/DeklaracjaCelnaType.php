@@ -14,82 +14,82 @@ class DeklaracjaCelnaType
     /**
      * @var bool $podarunek
      */
-    private $podarunek;
+    protected $podarunek;
 
     /**
      * @var bool $dokument
      */
-    private $dokument;
+    protected $dokument;
 
     /**
      * @var bool $probkaHandlowa
      */
-    private $probkaHandlowa;
+    protected $probkaHandlowa;
 
     /**
      * @var bool $zwrotTowaru
      */
-    private $zwrotTowaru;
+    protected $zwrotTowaru;
 
     /**
      * @var bool $towary
      */
-    private $towary;
+    protected $towary;
 
     /**
      * @var bool $inny
      */
-    private $inny;
+    protected $inny;
 
     /**
      * @var string $wyjasnienie
      */
-    private $wyjasnienie;
+    protected $wyjasnienie;
 
     /**
      * @var string $oplatyPocztowe
      */
-    private $oplatyPocztowe;
+    protected $oplatyPocztowe;
 
     /**
      * @var string $uwagi
      */
-    private $uwagi;
+    protected $uwagi;
 
     /**
      * @var string $licencja
      */
-    private $licencja;
+    protected $licencja;
 
     /**
      * @var string $swiadectwo
      */
-    private $swiadectwo;
+    protected $swiadectwo;
 
     /**
      * @var string $faktura
      */
-    private $faktura;
+    protected $faktura;
 
     /**
      * @var string $numerReferencyjnyImportera
      */
-    private $numerReferencyjnyImportera;
+    protected $numerReferencyjnyImportera;
 
     /**
      * @var string $numerTelefonuImportera
      */
-    private $numerTelefonuImportera;
+    protected $numerTelefonuImportera;
 
     /**
      * @var string $waluta
      */
-    private $waluta;
+    protected $waluta;
 
     /**
      * @var \Abryb\ENadawca\Type\SzczegolyDeklaracjiCelnejType[] $szczegoly
      */
-    private $szczegoly = [
+    protected $szczegoly = [
     ];
 
     /**

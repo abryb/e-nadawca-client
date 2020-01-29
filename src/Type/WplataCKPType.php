@@ -14,39 +14,39 @@ class WplataCKPType
     /**
      * @var string $unikalnyIdentyfikatorWplaty
      */
-    private $unikalnyIdentyfikatorWplaty;
+    protected $unikalnyIdentyfikatorWplaty;
 
     /**
      * @var string $numerNadania
      */
-    private $numerNadania;
+    protected $numerNadania;
 
     /**
      * Kwota w groszach
      *
      * @var int $kwota
      */
-    private $kwota;
+    protected $kwota;
 
     /**
      * @var \DateTime $dataPobrania
      */
-    private $dataPobrania;
+    protected $dataPobrania;
 
     /**
      * @var \DateTime $dataPrzelewu
      */
-    private $dataPrzelewu;
+    protected $dataPrzelewu;
 
     /**
      * @var int $idUmowy
      */
-    private $idUmowy;
+    protected $idUmowy;
 
     /**
      * @var string $tytulPrzelewuZbiorczego
      */
-    private $tytulPrzelewuZbiorczego;
+    protected $tytulPrzelewuZbiorczego;
 
     /**
      * Gets as unikalnyIdentyfikatorWplaty

@@ -14,17 +14,17 @@ class TrasaRequestType
     /**
      * @var int $fromUrzadNadania
      */
-    private $fromUrzadNadania;
+    protected $fromUrzadNadania;
 
     /**
      * @var string $toKodPocztowy
      */
-    private $toKodPocztowy;
+    protected $toKodPocztowy;
 
     /**
      * @var string $guid
      */
-    private $guid;
+    protected $guid;
 
     /**
      * Gets as fromUrzadNadania

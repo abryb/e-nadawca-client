@@ -14,22 +14,22 @@ class PaletaType
     /**
      * @var string $rodzajPalety
      */
-    private $rodzajPalety;
+    protected $rodzajPalety;
 
     /**
      * @var int $szerokosc
      */
-    private $szerokosc;
+    protected $szerokosc;
 
     /**
      * @var string $dlugosc
      */
-    private $dlugosc;
+    protected $dlugosc;
 
     /**
      * @var string $wysokosc
      */
-    private $wysokosc;
+    protected $wysokosc;
 
     /**
      * Gets as rodzajPalety

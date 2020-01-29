@@ -14,29 +14,29 @@ class JednostkaOrganizacyjnaType
     /**
      * @var int $id
      */
-    private $id;
+    protected $id;
 
     /**
      * @var string $nazwa
      */
-    private $nazwa;
+    protected $nazwa;
 
     /**
      * @var string $opis
      */
-    private $opis;
+    protected $opis;
 
     /**
      * @var string $mpk
      */
-    private $mpk;
+    protected $mpk;
 
     /**
      * Wystarczy przesłać obiekt z ustawionym id reszta pól może zostać pominięta (aby zmniejszyć ilośc danych do transmisji)
      *
      * @var \Abryb\ENadawca\Type\AccountType[] $account
      */
-    private $account = [
+    protected $account = [
     ];
 
     /**
@@ -44,7 +44,7 @@ class JednostkaOrganizacyjnaType
      *
      * @var \Abryb\ENadawca\Type\JednostkaOrganizacyjnaType $jednostkaNadrzedna
      */
-    private $jednostkaNadrzedna;
+    protected $jednostkaNadrzedna;
 
     /**
      * Gets as id

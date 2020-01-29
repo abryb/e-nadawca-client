@@ -14,12 +14,12 @@ class ObszarAdresowyResponseType
     /**
      * @var bool $isObszarMiasto
      */
-    private $isObszarMiasto;
+    protected $isObszarMiasto;
 
     /**
      * @var string $guid
      */
-    private $guid;
+    protected $guid;
 
     /**
      * Gets as isObszarMiasto

@@ -12,22 +12,22 @@ class GetPaczkaKorzysciInfoResponse
     /**
      * @var string $status
      */
-    private $status;
+    protected $status;
 
     /**
      * @var int $idKarta
      */
-    private $idKarta;
+    protected $idKarta;
 
     /**
      * @var \Abryb\ENadawca\Type\InfoPaczkaKorzysciType $info
      */
-    private $info;
+    protected $info;
 
     /**
      * @var \Abryb\ENadawca\Type\ErrorType[] $error
      */
-    private $error = [
+    protected $error = [
     ];
 
     /**

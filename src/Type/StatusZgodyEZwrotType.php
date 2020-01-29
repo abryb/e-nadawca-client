@@ -14,34 +14,34 @@ class StatusZgodyEZwrotType
     /**
      * @var string $guidZgodaEZwrot
      */
-    private $guidZgodaEZwrot;
+    protected $guidZgodaEZwrot;
 
     /**
      * @var string $status
      */
-    private $status;
+    protected $status;
 
     /**
      * @var bool $platnoscZaPrzesylke
      */
-    private $platnoscZaPrzesylke;
+    protected $platnoscZaPrzesylke;
 
     /**
      * Kwota w groszach
      *
      * @var int $kosztKontrahenta
      */
-    private $kosztKontrahenta;
+    protected $kosztKontrahenta;
 
     /**
      * @var \DateTime $dataWygasnieciaZgody
      */
-    private $dataWygasnieciaZgody;
+    protected $dataWygasnieciaZgody;
 
     /**
      * @var string[] $eZwrotPrzesylki
      */
-    private $eZwrotPrzesylki = [
+    protected $eZwrotPrzesylki = [
     ];
 
     /**

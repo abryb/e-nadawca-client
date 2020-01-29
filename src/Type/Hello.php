@@ -12,7 +12,7 @@ class Hello
     /**
      * @var string $in
      */
-    private $in;
+    protected $in;
 
     /**
      * Gets as in

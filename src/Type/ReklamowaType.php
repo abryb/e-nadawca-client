@@ -14,12 +14,12 @@ class ReklamowaType extends PrzesylkaNieRejestrowanaType
     /**
      * @var int $masa
      */
-    private $masa;
+    protected $masa;
 
     /**
      * @var string $gabaryt
      */
-    private $gabaryt;
+    protected $gabaryt;
 
     /**
      * Gets as masa

@@ -14,27 +14,27 @@ class ObszarAdresowyType
     /**
      * @var string $kodPocztowy
      */
-    private $kodPocztowy;
+    protected $kodPocztowy;
 
     /**
      * @var string $miejscowosc
      */
-    private $miejscowosc;
+    protected $miejscowosc;
 
     /**
      * @var string $ulica
      */
-    private $ulica;
+    protected $ulica;
 
     /**
      * @var string $numerDomu
      */
-    private $numerDomu;
+    protected $numerDomu;
 
     /**
      * @var string $guid
      */
-    private $guid;
+    protected $guid;
 
     /**
      * Gets as kodPocztowy

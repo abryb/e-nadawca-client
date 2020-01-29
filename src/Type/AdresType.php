@@ -14,67 +14,67 @@ class AdresType
     /**
      * @var string $nazwa
      */
-    private $nazwa;
+    protected $nazwa;
 
     /**
      * @var string $nazwa2
      */
-    private $nazwa2;
+    protected $nazwa2;
 
     /**
      * @var string $ulica
      */
-    private $ulica;
+    protected $ulica;
 
     /**
      * @var string $numerDomu
      */
-    private $numerDomu;
+    protected $numerDomu;
 
     /**
      * @var string $numerLokalu
      */
-    private $numerLokalu;
+    protected $numerLokalu;
 
     /**
      * @var string $miejscowosc
      */
-    private $miejscowosc;
+    protected $miejscowosc;
 
     /**
      * @var string $kodPocztowy
      */
-    private $kodPocztowy;
+    protected $kodPocztowy;
 
     /**
      * @var string $kraj
      */
-    private $kraj;
+    protected $kraj;
 
     /**
      * @var string $telefon
      */
-    private $telefon;
+    protected $telefon;
 
     /**
      * @var string $email
      */
-    private $email;
+    protected $email;
 
     /**
      * @var string $mobile
      */
-    private $mobile;
+    protected $mobile;
 
     /**
      * @var string $osobaKontaktowa
      */
-    private $osobaKontaktowa;
+    protected $osobaKontaktowa;
 
     /**
      * @var string $nip
      */
-    private $nip;
+    protected $nip;
 
     /**
      * Gets as nazwa

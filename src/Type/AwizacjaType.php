@@ -14,12 +14,12 @@ class AwizacjaType
     /**
      * @var \DateTime $od
      */
-    private $od;
+    protected $od;
 
     /**
      * @var \DateTime $do
      */
-    private $do;
+    protected $do;
 
     /**
      * Gets as od

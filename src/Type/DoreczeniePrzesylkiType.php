@@ -14,37 +14,37 @@ class DoreczeniePrzesylkiType
     /**
      * @var \DateTime $data
      */
-    private $data;
+    protected $data;
 
     /**
      * @var string $osobaOdbierajaca
      */
-    private $osobaOdbierajaca;
+    protected $osobaOdbierajaca;
 
     /**
      * @var string $podmiotDoreczenia
      */
-    private $podmiotDoreczenia;
+    protected $podmiotDoreczenia;
 
     /**
      * @var \DateTime $dataPelnomocnictwa
      */
-    private $dataPelnomocnictwa;
+    protected $dataPelnomocnictwa;
 
     /**
      * @var string $numerPelnomocnictwa
      */
-    private $numerPelnomocnictwa;
+    protected $numerPelnomocnictwa;
 
     /**
      * @var bool $pieczecFirmowa
      */
-    private $pieczecFirmowa;
+    protected $pieczecFirmowa;
 
     /**
      * @var string $miejscePozostawieniaZawiadomieniaODoreczeniu
      */
-    private $miejscePozostawieniaZawiadomieniaODoreczeniu;
+    protected $miejscePozostawieniaZawiadomieniaODoreczeniu;
 
     /**
      * Gets as data

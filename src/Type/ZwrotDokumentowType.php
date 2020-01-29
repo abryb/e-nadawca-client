@@ -14,17 +14,17 @@ class ZwrotDokumentowType
     /**
      * @var int $odleglosc
      */
-    private $odleglosc;
+    protected $odleglosc;
 
     /**
      * @var string $rodzajPocztex
      */
-    private $rodzajPocztex;
+    protected $rodzajPocztex;
 
     /**
      * @var \Abryb\ENadawca\Type\RodzajListType $rodzajList
      */
-    private $rodzajList;
+    protected $rodzajList;
 
     /**
      * Gets as odleglosc

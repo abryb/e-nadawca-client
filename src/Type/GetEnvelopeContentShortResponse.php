@@ -12,7 +12,7 @@ class GetEnvelopeContentShortResponse
     /**
      * @var \Abryb\ENadawca\Type\PrzesylkaShortType[] $przesylka
      */
-    private $przesylka = [
+    protected $przesylka = [
     ];
 
     /**

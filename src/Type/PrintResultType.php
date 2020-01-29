@@ -14,12 +14,12 @@ class PrintResultType
     /**
      * @var string $guid
      */
-    private $guid;
+    protected $guid;
 
     /**
      * @var mixed $print
      */
-    private $print;
+    protected $print;
 
     /**
      * Gets as guid

@@ -14,12 +14,12 @@ class KategoriePowodowReklamacjiType
     /**
      * @var string $nazwa
      */
-    private $nazwa;
+    protected $nazwa;
 
     /**
      * @var \Abryb\ENadawca\Type\PowodReklamacjiType[] $powodReklamacji
      */
-    private $powodReklamacji = [
+    protected $powodReklamacji = [
     ];
 
     /**

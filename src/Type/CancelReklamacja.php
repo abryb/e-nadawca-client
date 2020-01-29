@@ -12,7 +12,7 @@ class CancelReklamacja
     /**
      * @var int $idRelkamacja
      */
-    private $idRelkamacja;
+    protected $idRelkamacja;
 
     /**
      * Gets as idRelkamacja

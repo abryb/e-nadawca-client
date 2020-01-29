@@ -14,42 +14,42 @@ class OczekujeNaZgodeEZwrotType
     /**
      * @var int $idZgody
      */
-    private $idZgody;
+    protected $idZgody;
 
     /**
      * @var string $nazwaProduktu
      */
-    private $nazwaProduktu;
+    protected $nazwaProduktu;
 
     /**
      * @var string $numerZamowienia
      */
-    private $numerZamowienia;
+    protected $numerZamowienia;
 
     /**
      * @var string $numerNadania
      */
-    private $numerNadania;
+    protected $numerNadania;
 
     /**
      * @var string $email
      */
-    private $email;
+    protected $email;
 
     /**
      * @var \DateTime $dataNadania
      */
-    private $dataNadania;
+    protected $dataNadania;
 
     /**
      * @var string $guidZgodaEZwrot
      */
-    private $guidZgodaEZwrot;
+    protected $guidZgodaEZwrot;
 
     /**
      * @var \Abryb\ENadawca\Type\ShopEZwrotyType $sklepEZwrot
      */
-    private $sklepEZwrot;
+    protected $sklepEZwrot;
 
     /**
      * Gets as idZgody

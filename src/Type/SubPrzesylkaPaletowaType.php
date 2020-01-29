@@ -14,17 +14,17 @@ class SubPrzesylkaPaletowaType extends PrzesylkaType
     /**
      * @var string $zawartosc
      */
-    private $zawartosc;
+    protected $zawartosc;
 
     /**
      * @var int $masa
      */
-    private $masa;
+    protected $masa;
 
     /**
      * @var \Abryb\ENadawca\Type\PaletaType $paleta
      */
-    private $paleta;
+    protected $paleta;
 
     /**
      * Gets as zawartosc

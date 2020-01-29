@@ -14,7 +14,7 @@ class ListBiznesowyType extends PrzesylkaNieRejestrowanaType
     /**
      * @var int $masa
      */
-    private $masa;
+    protected $masa;
 
     /**
      * Gets as masa

@@ -14,19 +14,19 @@ class ZwrotPrzesylkiType
     /**
      * @var string $przyczyna
      */
-    private $przyczyna;
+    protected $przyczyna;
 
     /**
      * @var \DateTime $data
      */
-    private $data;
+    protected $data;
 
     /**
      * Dodatkowy opisowy powód zwrotu przesyłki
      *
      * @var string $przyczynaZwrotuDodatkowa
      */
-    private $przyczynaZwrotuDodatkowa;
+    protected $przyczynaZwrotuDodatkowa;
 
     /**
      * Gets as przyczyna

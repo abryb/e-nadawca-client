@@ -12,12 +12,12 @@ class GetEnvelopeStatusResponse
     /**
      * @var string $envelopeStatus
      */
-    private $envelopeStatus;
+    protected $envelopeStatus;
 
     /**
      * @var \Abryb\ENadawca\Type\ErrorType[] $error
      */
-    private $error = [
+    protected $error = [
     ];
 
     /**

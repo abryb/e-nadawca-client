@@ -12,13 +12,13 @@ class CreateEnvelopeBuforResponse
     /**
      * @var \Abryb\ENadawca\Type\BuforType[] $createdBufor
      */
-    private $createdBufor = [
+    protected $createdBufor = [
     ];
 
     /**
      * @var \Abryb\ENadawca\Type\ErrorType[] $error
      */
-    private $error = [
+    protected $error = [
     ];
 
     /**

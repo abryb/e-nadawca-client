@@ -14,57 +14,57 @@ class PaczkaPocztowaType extends PrzesylkaRejestrowanaType
     /**
      * @var string $zasadySpecjalne
      */
-    private $zasadySpecjalne;
+    protected $zasadySpecjalne;
 
     /**
      * @var bool $posteRestante
      */
-    private $posteRestante;
+    protected $posteRestante;
 
     /**
      * @var int $iloscPotwierdzenOdbioru
      */
-    private $iloscPotwierdzenOdbioru;
+    protected $iloscPotwierdzenOdbioru;
 
     /**
      * @var string $kategoria
      */
-    private $kategoria;
+    protected $kategoria;
 
     /**
      * @var string $gabaryt
      */
-    private $gabaryt;
+    protected $gabaryt;
 
     /**
      * @var int $masa
      */
-    private $masa;
+    protected $masa;
 
     /**
      * @var int $wartosc
      */
-    private $wartosc;
+    protected $wartosc;
 
     /**
      * @var bool $zwrotDoslanie
      */
-    private $zwrotDoslanie;
+    protected $zwrotDoslanie;
 
     /**
      * @var bool $egzemplarzBiblioteczny
      */
-    private $egzemplarzBiblioteczny;
+    protected $egzemplarzBiblioteczny;
 
     /**
      * @var bool $dlaOciemnialych
      */
-    private $dlaOciemnialych;
+    protected $dlaOciemnialych;
 
     /**
      * @var \Abryb\ENadawca\Type\EPOType $epo
      */
-    private $epo;
+    protected $epo;
 
     /**
      * Gets as zasadySpecjalne

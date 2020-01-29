@@ -12,7 +12,7 @@ class GetReklamacje
     /**
      * @var \DateTime $dataRozpatrzenia
      */
-    private $dataRozpatrzenia;
+    protected $dataRozpatrzenia;
 
     /**
      * Gets as dataRozpatrzenia

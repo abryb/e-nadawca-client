@@ -12,7 +12,7 @@ class GetListaZgodEZwrotow
     /**
      * @var string $status
      */
-    private $status;
+    protected $status;
 
     /**
      * Gets as status

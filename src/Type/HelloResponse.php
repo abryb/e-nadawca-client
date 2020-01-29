@@ -12,7 +12,7 @@ class HelloResponse
     /**
      * @var string $out
      */
-    private $out;
+    protected $out;
 
     /**
      * Gets as out

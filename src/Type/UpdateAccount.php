@@ -12,7 +12,7 @@ class UpdateAccount
     /**
      * @var \Abryb\ENadawca\Type\AccountType $account
      */
-    private $account;
+    protected $account;
 
     /**
      * Gets as account

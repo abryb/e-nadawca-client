@@ -12,12 +12,12 @@ class GetKierunki
     /**
      * @var string $plan
      */
-    private $plan;
+    protected $plan;
 
     /**
      * @var string $prefixKodPocztowy
      */
-    private $prefixKodPocztowy;
+    protected $prefixKodPocztowy;
 
     /**
      * Gets as plan

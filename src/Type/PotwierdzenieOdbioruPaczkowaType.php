@@ -14,12 +14,12 @@ class PotwierdzenieOdbioruPaczkowaType
     /**
      * @var int $ilosc
      */
-    private $ilosc;
+    protected $ilosc;
 
     /**
      * @var string $sposob
      */
-    private $sposob;
+    protected $sposob;
 
     /**
      * Gets as ilosc

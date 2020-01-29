@@ -14,17 +14,17 @@ class KartaType
     /**
      * @var int $idKarta
      */
-    private $idKarta;
+    protected $idKarta;
 
     /**
      * @var string $opis
      */
-    private $opis;
+    protected $opis;
 
     /**
      * @var bool $aktywna
      */
-    private $aktywna;
+    protected $aktywna;
 
     /**
      * Gets as idKarta

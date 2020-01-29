@@ -14,17 +14,17 @@ class ProfilType extends AdresType
     /**
      * @var int $idProfil
      */
-    private $idProfil;
+    protected $idProfil;
 
     /**
      * @var string $nazwaSkrocona
      */
-    private $nazwaSkrocona;
+    protected $nazwaSkrocona;
 
     /**
      * @var string $fax
      */
-    private $fax;
+    protected $fax;
 
     /**
      * Gets as idProfil

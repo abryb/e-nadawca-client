@@ -12,28 +12,28 @@ class GetEZDOResponse
     /**
      * @var string $numerKD
      */
-    private $numerKD;
+    protected $numerKD;
 
     /**
      * @var string $numerEZDO
      */
-    private $numerEZDO;
+    protected $numerEZDO;
 
     /**
      * @var \Abryb\ENadawca\Type\AdresType $adres
      */
-    private $adres;
+    protected $adres;
 
     /**
      * @var \Abryb\ENadawca\Type\EZDOPrzesylkaType[] $przesylka
      */
-    private $przesylka = [
+    protected $przesylka = [
     ];
 
     /**
      * @var \Abryb\ENadawca\Type\ErrorType[] $error
      */
-    private $error = [
+    protected $error = [
     ];
 
     /**

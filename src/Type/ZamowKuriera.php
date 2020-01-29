@@ -12,32 +12,32 @@ class ZamowKuriera
     /**
      * @var \Abryb\ENadawca\Type\AdresType $miejsceOdbioru
      */
-    private $miejsceOdbioru;
+    protected $miejsceOdbioru;
 
     /**
      * @var \Abryb\ENadawca\Type\AdresType $nadawca
      */
-    private $nadawca;
+    protected $nadawca;
 
     /**
      * @var string $oczekiwanaDataOdbioru
      */
-    private $oczekiwanaDataOdbioru;
+    protected $oczekiwanaDataOdbioru;
 
     /**
      * @var string $oczekiwanaGodzinaOdbioru
      */
-    private $oczekiwanaGodzinaOdbioru;
+    protected $oczekiwanaGodzinaOdbioru;
 
     /**
      * @var string $szacowanaIloscPrzeslek
      */
-    private $szacowanaIloscPrzeslek;
+    protected $szacowanaIloscPrzeslek;
 
     /**
      * @var string $szacowanaLacznaMasaPrzesylek
      */
-    private $szacowanaLacznaMasaPrzesylek;
+    protected $szacowanaLacznaMasaPrzesylek;
 
     /**
      * Gets as miejsceOdbioru
