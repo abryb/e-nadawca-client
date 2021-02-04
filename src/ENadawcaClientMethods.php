@@ -326,5 +326,20 @@ trait ENadawcaClientMethods
         return $this->callMethod('getPrintForParcel', $request);
     }
 
+    public function createShopEZwroty(Type\CreateShopEZwroty $request): Type\CreateShopEZwrotyResponse
+    {
+        return $this->callMethod('createShopEZwroty', $request);
+    }
+
+    public function deleteShopEZwroty(Type\DeleteShopEZwroty $request): Type\DeleteShopEZwrotyResponse
+    {
+        return $this->callMethod('deleteShopEZwroty', $request);
+    }
+
+    public function getShopEZwrotyList(Type\GetShopEZwrotyList $request): Type\GetShopEZwrotyListResponse
+    {
+        return $this->callMethod('getShopEZwrotyList', $request);
+    }
+
     abstract protected function callMethod(string $method, $arguments);
 }

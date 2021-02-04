@@ -22,6 +22,11 @@ class UbezpieczenieType
     protected $kwota;
 
     /**
+     * @var bool $akceptacjaOWU
+     */
+    protected $akceptacjaOWU;
+
+    /**
      * Gets as rodzaj
      *
      * @return string
@@ -65,6 +70,30 @@ class UbezpieczenieType
     public function setKwota($kwota)
     {
         $this->kwota = $kwota;
+
+        return $this;
+    }
+
+    /**
+     * Gets as akceptacjaOWU
+     *
+     * @return bool
+     */
+    public function getAkceptacjaOWU()
+    {
+        return $this->akceptacjaOWU;
+    }
+
+    /**
+     * Sets a new akceptacjaOWU
+     *
+     * @param bool $akceptacjaOWU
+     *
+     * @return self
+     */
+    public function setAkceptacjaOWU($akceptacjaOWU)
+    {
+        $this->akceptacjaOWU = $akceptacjaOWU;
 
         return $this;
     }

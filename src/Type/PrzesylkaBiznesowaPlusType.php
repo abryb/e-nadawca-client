@@ -47,6 +47,8 @@ class PrzesylkaBiznesowaPlusType extends PrzesylkaRejestrowanaType
     protected $kategoria;
 
     /**
+     * atrybut nieużywany, użyj potwierdzenieOdbioru
+     *
      * @var int $iloscPotwierdzenOdbioru
      */
     protected $iloscPotwierdzenOdbioru;
@@ -118,6 +120,26 @@ class PrzesylkaBiznesowaPlusType extends PrzesylkaRejestrowanaType
      * @var int $drugaProbaDoreczeniaPoLiczbieDni
      */
     protected $drugaProbaDoreczeniaPoLiczbieDni;
+
+    /**
+     * @var bool $sprawdzenieZawartosciPrzesylkiPrzezOdbiorce
+     */
+    protected $sprawdzenieZawartosciPrzesylkiPrzezOdbiorce;
+
+    /**
+     * @var \Abryb\ENadawca\Type\PotwierdzenieOdbioruBiznesowaType $potwierdzenieOdbioru
+     */
+    protected $potwierdzenieOdbioru;
+
+    /**
+     * @var \Abryb\ENadawca\Type\DoreczenieBiznesowaType $doreczenie
+     */
+    protected $doreczenie;
+
+    /**
+     * @var \Abryb\ENadawca\Type\ZwrotDokumentowBiznesowaType $zwrotDokumentow
+     */
+    protected $zwrotDokumentow;
 
     /**
      * Gets as posteRestante
@@ -290,6 +312,8 @@ class PrzesylkaBiznesowaPlusType extends PrzesylkaRejestrowanaType
     /**
      * Gets as iloscPotwierdzenOdbioru
      *
+     * atrybut nieużywany, użyj potwierdzenieOdbioru
+     *
      * @return int
      */
     public function getIloscPotwierdzenOdbioru()
@@ -299,6 +323,8 @@ class PrzesylkaBiznesowaPlusType extends PrzesylkaRejestrowanaType
 
     /**
      * Sets a new iloscPotwierdzenOdbioru
+     *
+     * atrybut nieużywany, użyj potwierdzenieOdbioru
      *
      * @param int $iloscPotwierdzenOdbioru
      *
@@ -655,6 +681,102 @@ class PrzesylkaBiznesowaPlusType extends PrzesylkaRejestrowanaType
     public function setDrugaProbaDoreczeniaPoLiczbieDni($drugaProbaDoreczeniaPoLiczbieDni)
     {
         $this->drugaProbaDoreczeniaPoLiczbieDni = $drugaProbaDoreczeniaPoLiczbieDni;
+
+        return $this;
+    }
+
+    /**
+     * Gets as sprawdzenieZawartosciPrzesylkiPrzezOdbiorce
+     *
+     * @return bool
+     */
+    public function getSprawdzenieZawartosciPrzesylkiPrzezOdbiorce()
+    {
+        return $this->sprawdzenieZawartosciPrzesylkiPrzezOdbiorce;
+    }
+
+    /**
+     * Sets a new sprawdzenieZawartosciPrzesylkiPrzezOdbiorce
+     *
+     * @param bool $sprawdzenieZawartosciPrzesylkiPrzezOdbiorce
+     *
+     * @return self
+     */
+    public function setSprawdzenieZawartosciPrzesylkiPrzezOdbiorce($sprawdzenieZawartosciPrzesylkiPrzezOdbiorce)
+    {
+        $this->sprawdzenieZawartosciPrzesylkiPrzezOdbiorce = $sprawdzenieZawartosciPrzesylkiPrzezOdbiorce;
+
+        return $this;
+    }
+
+    /**
+     * Gets as potwierdzenieOdbioru
+     *
+     * @return \Abryb\ENadawca\Type\PotwierdzenieOdbioruBiznesowaType
+     */
+    public function getPotwierdzenieOdbioru()
+    {
+        return $this->potwierdzenieOdbioru;
+    }
+
+    /**
+     * Sets a new potwierdzenieOdbioru
+     *
+     * @param \Abryb\ENadawca\Type\PotwierdzenieOdbioruBiznesowaType $potwierdzenieOdbioru
+     *
+     * @return self
+     */
+    public function setPotwierdzenieOdbioru(PotwierdzenieOdbioruBiznesowaType $potwierdzenieOdbioru)
+    {
+        $this->potwierdzenieOdbioru = $potwierdzenieOdbioru;
+
+        return $this;
+    }
+
+    /**
+     * Gets as doreczenie
+     *
+     * @return \Abryb\ENadawca\Type\DoreczenieBiznesowaType
+     */
+    public function getDoreczenie()
+    {
+        return $this->doreczenie;
+    }
+
+    /**
+     * Sets a new doreczenie
+     *
+     * @param \Abryb\ENadawca\Type\DoreczenieBiznesowaType $doreczenie
+     *
+     * @return self
+     */
+    public function setDoreczenie(DoreczenieBiznesowaType $doreczenie)
+    {
+        $this->doreczenie = $doreczenie;
+
+        return $this;
+    }
+
+    /**
+     * Gets as zwrotDokumentow
+     *
+     * @return \Abryb\ENadawca\Type\ZwrotDokumentowBiznesowaType
+     */
+    public function getZwrotDokumentow()
+    {
+        return $this->zwrotDokumentow;
+    }
+
+    /**
+     * Sets a new zwrotDokumentow
+     *
+     * @param \Abryb\ENadawca\Type\ZwrotDokumentowBiznesowaType $zwrotDokumentow
+     *
+     * @return self
+     */
+    public function setZwrotDokumentow(ZwrotDokumentowBiznesowaType $zwrotDokumentow)
+    {
+        $this->zwrotDokumentow = $zwrotDokumentow;
 
         return $this;
     }

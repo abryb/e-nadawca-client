@@ -17,6 +17,11 @@ class PrzesylkaEZwrotPocztexType extends PrzesylkaRejestrowanaType
     protected $numerNadaniaZwrot;
 
     /**
+     * @var int $idSklepEZwrot
+     */
+    protected $idSklepEZwrot;
+
+    /**
      * Gets as numerNadaniaZwrot
      *
      * @return string
@@ -36,6 +41,30 @@ class PrzesylkaEZwrotPocztexType extends PrzesylkaRejestrowanaType
     public function setNumerNadaniaZwrot($numerNadaniaZwrot)
     {
         $this->numerNadaniaZwrot = $numerNadaniaZwrot;
+
+        return $this;
+    }
+
+    /**
+     * Gets as idSklepEZwrot
+     *
+     * @return int
+     */
+    public function getIdSklepEZwrot()
+    {
+        return $this->idSklepEZwrot;
+    }
+
+    /**
+     * Sets a new idSklepEZwrot
+     *
+     * @param int $idSklepEZwrot
+     *
+     * @return self
+     */
+    public function setIdSklepEZwrot($idSklepEZwrot)
+    {
+        $this->idSklepEZwrot = $idSklepEZwrot;
 
         return $this;
     }

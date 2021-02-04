@@ -87,15 +87,50 @@ class ShopEZwrotyType
     protected $eZwrotTyp;
 
     /**
-     * @var bool $wymagalnoscNumeruIdentyfikujacegoPrzesylke
+     * @var string $wymagalnoscNumeruIdentyfikujacegoPrzesylke
      */
     protected $wymagalnoscNumeruIdentyfikujacegoPrzesylke;
+
+    /**
+     * @var bool $availableOnWebsite
+     */
+    protected $availableOnWebsite;
+
+    /**
+     * @var string $emailForEZwrot
+     */
+    protected $emailForEZwrot;
+
+    /**
+     * @var bool $paid
+     */
+    protected $paid;
+
+    /**
+     * @var int $consentValidFor
+     */
+    protected $consentValidFor;
+
+    /**
+     * @var int $contractorCost
+     */
+    protected $contractorCost;
+
+    /**
+     * @var string $infoForClient
+     */
+    protected $infoForClient;
 
     /**
      * @var string[] $eZwrotPrzesylki
      */
     protected $eZwrotPrzesylki = [
     ];
+
+    /**
+     * @var \Abryb\ENadawca\Type\EZwrotKartaType $eZwrotKarta
+     */
+    protected $eZwrotKarta;
 
     /**
      * Gets as idShop
@@ -460,7 +495,7 @@ class ShopEZwrotyType
     /**
      * Gets as wymagalnoscNumeruIdentyfikujacegoPrzesylke
      *
-     * @return bool
+     * @return string
      */
     public function getWymagalnoscNumeruIdentyfikujacegoPrzesylke()
     {
@@ -470,13 +505,157 @@ class ShopEZwrotyType
     /**
      * Sets a new wymagalnoscNumeruIdentyfikujacegoPrzesylke
      *
-     * @param bool $wymagalnoscNumeruIdentyfikujacegoPrzesylke
+     * @param string $wymagalnoscNumeruIdentyfikujacegoPrzesylke
      *
      * @return self
      */
     public function setWymagalnoscNumeruIdentyfikujacegoPrzesylke($wymagalnoscNumeruIdentyfikujacegoPrzesylke)
     {
         $this->wymagalnoscNumeruIdentyfikujacegoPrzesylke = $wymagalnoscNumeruIdentyfikujacegoPrzesylke;
+
+        return $this;
+    }
+
+    /**
+     * Gets as availableOnWebsite
+     *
+     * @return bool
+     */
+    public function getAvailableOnWebsite()
+    {
+        return $this->availableOnWebsite;
+    }
+
+    /**
+     * Sets a new availableOnWebsite
+     *
+     * @param bool $availableOnWebsite
+     *
+     * @return self
+     */
+    public function setAvailableOnWebsite($availableOnWebsite)
+    {
+        $this->availableOnWebsite = $availableOnWebsite;
+
+        return $this;
+    }
+
+    /**
+     * Gets as emailForEZwrot
+     *
+     * @return string
+     */
+    public function getEmailForEZwrot()
+    {
+        return $this->emailForEZwrot;
+    }
+
+    /**
+     * Sets a new emailForEZwrot
+     *
+     * @param string $emailForEZwrot
+     *
+     * @return self
+     */
+    public function setEmailForEZwrot($emailForEZwrot)
+    {
+        $this->emailForEZwrot = $emailForEZwrot;
+
+        return $this;
+    }
+
+    /**
+     * Gets as paid
+     *
+     * @return bool
+     */
+    public function getPaid()
+    {
+        return $this->paid;
+    }
+
+    /**
+     * Sets a new paid
+     *
+     * @param bool $paid
+     *
+     * @return self
+     */
+    public function setPaid($paid)
+    {
+        $this->paid = $paid;
+
+        return $this;
+    }
+
+    /**
+     * Gets as consentValidFor
+     *
+     * @return int
+     */
+    public function getConsentValidFor()
+    {
+        return $this->consentValidFor;
+    }
+
+    /**
+     * Sets a new consentValidFor
+     *
+     * @param int $consentValidFor
+     *
+     * @return self
+     */
+    public function setConsentValidFor($consentValidFor)
+    {
+        $this->consentValidFor = $consentValidFor;
+
+        return $this;
+    }
+
+    /**
+     * Gets as contractorCost
+     *
+     * @return int
+     */
+    public function getContractorCost()
+    {
+        return $this->contractorCost;
+    }
+
+    /**
+     * Sets a new contractorCost
+     *
+     * @param int $contractorCost
+     *
+     * @return self
+     */
+    public function setContractorCost($contractorCost)
+    {
+        $this->contractorCost = $contractorCost;
+
+        return $this;
+    }
+
+    /**
+     * Gets as infoForClient
+     *
+     * @return string
+     */
+    public function getInfoForClient()
+    {
+        return $this->infoForClient;
+    }
+
+    /**
+     * Sets a new infoForClient
+     *
+     * @param string $infoForClient
+     *
+     * @return self
+     */
+    public function setInfoForClient($infoForClient)
+    {
+        $this->infoForClient = $infoForClient;
 
         return $this;
     }
@@ -537,6 +716,30 @@ class ShopEZwrotyType
     public function setEZwrotPrzesylki(array $eZwrotPrzesylki)
     {
         $this->eZwrotPrzesylki = $eZwrotPrzesylki;
+
+        return $this;
+    }
+
+    /**
+     * Gets as eZwrotKarta
+     *
+     * @return \Abryb\ENadawca\Type\EZwrotKartaType
+     */
+    public function getEZwrotKarta()
+    {
+        return $this->eZwrotKarta;
+    }
+
+    /**
+     * Sets a new eZwrotKarta
+     *
+     * @param \Abryb\ENadawca\Type\EZwrotKartaType $eZwrotKarta
+     *
+     * @return self
+     */
+    public function setEZwrotKarta(EZwrotKartaType $eZwrotKarta)
+    {
+        $this->eZwrotKarta = $eZwrotKarta;
 
         return $this;
     }

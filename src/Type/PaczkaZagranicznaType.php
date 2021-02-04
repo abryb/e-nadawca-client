@@ -55,6 +55,11 @@ class PaczkaZagranicznaType extends PrzesylkaRejestrowanaType
     protected $numerReferencyjnyCelny;
 
     /**
+     * @var string $numerPrzesylkiKlienta
+     */
+    protected $numerPrzesylkiKlienta;
+
+    /**
      * @var \Abryb\ENadawca\Type\ZwrotType $zwrot
      */
     protected $zwrot;
@@ -68,6 +73,16 @@ class PaczkaZagranicznaType extends PrzesylkaRejestrowanaType
      * @var \Abryb\ENadawca\Type\DeklaracjaCelna2Type $deklaracjaCelna2
      */
     protected $deklaracjaCelna2;
+
+    /**
+     * @var string $sposobNadaniaInterconnect
+     */
+    protected $sposobNadaniaInterconnect;
+
+    /**
+     * @var \Abryb\ENadawca\Type\SposobDoreczeniaType $sposobDoreczenia
+     */
+    protected $sposobDoreczenia;
 
     /**
      * Gets as posteRestante
@@ -268,6 +283,30 @@ class PaczkaZagranicznaType extends PrzesylkaRejestrowanaType
     }
 
     /**
+     * Gets as numerPrzesylkiKlienta
+     *
+     * @return string
+     */
+    public function getNumerPrzesylkiKlienta()
+    {
+        return $this->numerPrzesylkiKlienta;
+    }
+
+    /**
+     * Sets a new numerPrzesylkiKlienta
+     *
+     * @param string $numerPrzesylkiKlienta
+     *
+     * @return self
+     */
+    public function setNumerPrzesylkiKlienta($numerPrzesylkiKlienta)
+    {
+        $this->numerPrzesylkiKlienta = $numerPrzesylkiKlienta;
+
+        return $this;
+    }
+
+    /**
      * Gets as zwrot
      *
      * @return \Abryb\ENadawca\Type\ZwrotType
@@ -335,6 +374,54 @@ class PaczkaZagranicznaType extends PrzesylkaRejestrowanaType
     public function setDeklaracjaCelna2(DeklaracjaCelna2Type $deklaracjaCelna2)
     {
         $this->deklaracjaCelna2 = $deklaracjaCelna2;
+
+        return $this;
+    }
+
+    /**
+     * Gets as sposobNadaniaInterconnect
+     *
+     * @return string
+     */
+    public function getSposobNadaniaInterconnect()
+    {
+        return $this->sposobNadaniaInterconnect;
+    }
+
+    /**
+     * Sets a new sposobNadaniaInterconnect
+     *
+     * @param string $sposobNadaniaInterconnect
+     *
+     * @return self
+     */
+    public function setSposobNadaniaInterconnect($sposobNadaniaInterconnect)
+    {
+        $this->sposobNadaniaInterconnect = $sposobNadaniaInterconnect;
+
+        return $this;
+    }
+
+    /**
+     * Gets as sposobDoreczenia
+     *
+     * @return \Abryb\ENadawca\Type\SposobDoreczeniaType
+     */
+    public function getSposobDoreczenia()
+    {
+        return $this->sposobDoreczenia;
+    }
+
+    /**
+     * Sets a new sposobDoreczenia
+     *
+     * @param \Abryb\ENadawca\Type\SposobDoreczeniaType $sposobDoreczenia
+     *
+     * @return self
+     */
+    public function setSposobDoreczenia(SposobDoreczeniaType $sposobDoreczenia)
+    {
+        $this->sposobDoreczenia = $sposobDoreczenia;
 
         return $this;
     }

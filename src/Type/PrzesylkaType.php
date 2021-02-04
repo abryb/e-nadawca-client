@@ -32,6 +32,16 @@ class PrzesylkaType
     protected $opis;
 
     /**
+     * @var \DateTime $planowanaDataNadania
+     */
+    protected $planowanaDataNadania;
+
+    /**
+     * @var \Abryb\ENadawca\Type\OplacaOdbiorcaType $oplacaOdbiorca
+     */
+    protected $oplacaOdbiorca;
+
+    /**
      * Gets as guid
      *
      * @return string
@@ -123,6 +133,52 @@ class PrzesylkaType
     public function setOpis($opis)
     {
         $this->opis = $opis;
+
+        return $this;
+    }
+
+    /**
+     * Gets as planowanaDataNadania
+     *
+     * @return \DateTime
+     */
+    public function getPlanowanaDataNadania()
+    {
+        return $this->planowanaDataNadania;
+    }
+
+    /**
+     * Sets a new planowanaDataNadania
+     *
+     * @return self
+     */
+    public function setPlanowanaDataNadania(\DateTime $planowanaDataNadania)
+    {
+        $this->planowanaDataNadania = $planowanaDataNadania;
+
+        return $this;
+    }
+
+    /**
+     * Gets as oplacaOdbiorca
+     *
+     * @return \Abryb\ENadawca\Type\OplacaOdbiorcaType
+     */
+    public function getOplacaOdbiorca()
+    {
+        return $this->oplacaOdbiorca;
+    }
+
+    /**
+     * Sets a new oplacaOdbiorca
+     *
+     * @param \Abryb\ENadawca\Type\OplacaOdbiorcaType $oplacaOdbiorca
+     *
+     * @return self
+     */
+    public function setOplacaOdbiorca(OplacaOdbiorcaType $oplacaOdbiorca)
+    {
+        $this->oplacaOdbiorca = $oplacaOdbiorca;
 
         return $this;
     }

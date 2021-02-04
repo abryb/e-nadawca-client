@@ -37,6 +37,18 @@ class PrzesylkaZadeklarowanaWartoscZagranicznaType extends PrzesylkaRejestrowana
     protected $deklaracjaCelna2;
 
     /**
+     * Element określający zawartość przesyłki.
+     * Aktualnie dopuszczalne wartości:
+     * KORESPONDENCJA
+     * DOKUMENTY_PONIZEJ_250G
+     * DOKUMENTY_POWYZEJ_250G
+     * TOWARY
+     *
+     * @var string $zawartosc
+     */
+    protected $zawartosc;
+
+    /**
      * Gets as posteRestante
      *
      * @return bool
@@ -152,6 +164,44 @@ class PrzesylkaZadeklarowanaWartoscZagranicznaType extends PrzesylkaRejestrowana
     public function setDeklaracjaCelna2(DeklaracjaCelna2Type $deklaracjaCelna2)
     {
         $this->deklaracjaCelna2 = $deklaracjaCelna2;
+
+        return $this;
+    }
+
+    /**
+     * Gets as zawartosc
+     *
+     * Element określający zawartość przesyłki.
+     * Aktualnie dopuszczalne wartości:
+     * KORESPONDENCJA
+     * DOKUMENTY_PONIZEJ_250G
+     * DOKUMENTY_POWYZEJ_250G
+     * TOWARY
+     *
+     * @return string
+     */
+    public function getZawartosc()
+    {
+        return $this->zawartosc;
+    }
+
+    /**
+     * Sets a new zawartosc
+     *
+     * Element określający zawartość przesyłki.
+     * Aktualnie dopuszczalne wartości:
+     * KORESPONDENCJA
+     * DOKUMENTY_PONIZEJ_250G
+     * DOKUMENTY_POWYZEJ_250G
+     * TOWARY
+     *
+     * @param string $zawartosc
+     *
+     * @return self
+     */
+    public function setZawartosc($zawartosc)
+    {
+        $this->zawartosc = $zawartosc;
 
         return $this;
     }

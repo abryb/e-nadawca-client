@@ -5,15 +5,14 @@ declare(strict_types=1);
 namespace Abryb\ENadawca\Type;
 
 /**
- * Class representing GetKartyResponse
+ * Class representing CreateShopEZwrotyResponse
  */
-class GetKartyResponse
+class CreateShopEZwrotyResponse
 {
     /**
-     * @var \Abryb\ENadawca\Type\KartaType[] $karta
+     * @var int $idShop
      */
-    protected $karta = [
-    ];
+    protected $idShop;
 
     /**
      * @var \Abryb\ENadawca\Type\ErrorType[] $error
@@ -22,61 +21,25 @@ class GetKartyResponse
     ];
 
     /**
-     * Adds as karta
+     * Gets as idShop
      *
-     * @param \Abryb\ENadawca\Type\KartaType $karta
+     * @return int
+     */
+    public function getIdShop()
+    {
+        return $this->idShop;
+    }
+
+    /**
+     * Sets a new idShop
+     *
+     * @param int $idShop
      *
      * @return self
      */
-    public function addToKarta(KartaType $karta)
+    public function setIdShop($idShop)
     {
-        $this->karta[] = $karta;
-
-        return $this;
-    }
-
-    /**
-     * isset karta
-     *
-     * @param int|string $index
-     *
-     * @return bool
-     */
-    public function issetKarta($index)
-    {
-        return isset($this->karta[$index]);
-    }
-
-    /**
-     * unset karta
-     *
-     * @param int|string $index
-     */
-    public function unsetKarta($index)
-    {
-        unset($this->karta[$index]);
-    }
-
-    /**
-     * Gets as karta
-     *
-     * @return \Abryb\ENadawca\Type\KartaType[]
-     */
-    public function getKarta()
-    {
-        return $this->karta;
-    }
-
-    /**
-     * Sets a new karta
-     *
-     * @param \Abryb\ENadawca\Type\KartaType[] $karta
-     *
-     * @return self
-     */
-    public function setKarta(array $karta)
-    {
-        $this->karta = $karta;
+        $this->idShop = $idShop;
 
         return $this;
     }

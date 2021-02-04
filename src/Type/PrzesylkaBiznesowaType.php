@@ -68,6 +68,31 @@ class PrzesylkaBiznesowaType extends PrzesylkaRejestrowanaType
     protected $epo;
 
     /**
+     * @var \Abryb\ENadawca\Type\AdresType $adresDlaZwrotu
+     */
+    protected $adresDlaZwrotu;
+
+    /**
+     * @var bool $sprawdzenieZawartosciPrzesylkiPrzezOdbiorce
+     */
+    protected $sprawdzenieZawartosciPrzesylkiPrzezOdbiorce;
+
+    /**
+     * @var \Abryb\ENadawca\Type\PotwierdzenieOdbioruBiznesowaType $potwierdzenieOdbioru
+     */
+    protected $potwierdzenieOdbioru;
+
+    /**
+     * @var \Abryb\ENadawca\Type\DoreczenieBiznesowaType $doreczenie
+     */
+    protected $doreczenie;
+
+    /**
+     * @var \Abryb\ENadawca\Type\ZwrotDokumentowBiznesowaType $zwrotDokumentow
+     */
+    protected $zwrotDokumentow;
+
+    /**
      * Gets as zasadySpecjalne
      *
      * @return string
@@ -363,6 +388,126 @@ class PrzesylkaBiznesowaType extends PrzesylkaRejestrowanaType
     public function setEpo(EPOType $epo)
     {
         $this->epo = $epo;
+
+        return $this;
+    }
+
+    /**
+     * Gets as adresDlaZwrotu
+     *
+     * @return \Abryb\ENadawca\Type\AdresType
+     */
+    public function getAdresDlaZwrotu()
+    {
+        return $this->adresDlaZwrotu;
+    }
+
+    /**
+     * Sets a new adresDlaZwrotu
+     *
+     * @param \Abryb\ENadawca\Type\AdresType $adresDlaZwrotu
+     *
+     * @return self
+     */
+    public function setAdresDlaZwrotu(AdresType $adresDlaZwrotu)
+    {
+        $this->adresDlaZwrotu = $adresDlaZwrotu;
+
+        return $this;
+    }
+
+    /**
+     * Gets as sprawdzenieZawartosciPrzesylkiPrzezOdbiorce
+     *
+     * @return bool
+     */
+    public function getSprawdzenieZawartosciPrzesylkiPrzezOdbiorce()
+    {
+        return $this->sprawdzenieZawartosciPrzesylkiPrzezOdbiorce;
+    }
+
+    /**
+     * Sets a new sprawdzenieZawartosciPrzesylkiPrzezOdbiorce
+     *
+     * @param bool $sprawdzenieZawartosciPrzesylkiPrzezOdbiorce
+     *
+     * @return self
+     */
+    public function setSprawdzenieZawartosciPrzesylkiPrzezOdbiorce($sprawdzenieZawartosciPrzesylkiPrzezOdbiorce)
+    {
+        $this->sprawdzenieZawartosciPrzesylkiPrzezOdbiorce = $sprawdzenieZawartosciPrzesylkiPrzezOdbiorce;
+
+        return $this;
+    }
+
+    /**
+     * Gets as potwierdzenieOdbioru
+     *
+     * @return \Abryb\ENadawca\Type\PotwierdzenieOdbioruBiznesowaType
+     */
+    public function getPotwierdzenieOdbioru()
+    {
+        return $this->potwierdzenieOdbioru;
+    }
+
+    /**
+     * Sets a new potwierdzenieOdbioru
+     *
+     * @param \Abryb\ENadawca\Type\PotwierdzenieOdbioruBiznesowaType $potwierdzenieOdbioru
+     *
+     * @return self
+     */
+    public function setPotwierdzenieOdbioru(PotwierdzenieOdbioruBiznesowaType $potwierdzenieOdbioru)
+    {
+        $this->potwierdzenieOdbioru = $potwierdzenieOdbioru;
+
+        return $this;
+    }
+
+    /**
+     * Gets as doreczenie
+     *
+     * @return \Abryb\ENadawca\Type\DoreczenieBiznesowaType
+     */
+    public function getDoreczenie()
+    {
+        return $this->doreczenie;
+    }
+
+    /**
+     * Sets a new doreczenie
+     *
+     * @param \Abryb\ENadawca\Type\DoreczenieBiznesowaType $doreczenie
+     *
+     * @return self
+     */
+    public function setDoreczenie(DoreczenieBiznesowaType $doreczenie)
+    {
+        $this->doreczenie = $doreczenie;
+
+        return $this;
+    }
+
+    /**
+     * Gets as zwrotDokumentow
+     *
+     * @return \Abryb\ENadawca\Type\ZwrotDokumentowBiznesowaType
+     */
+    public function getZwrotDokumentow()
+    {
+        return $this->zwrotDokumentow;
+    }
+
+    /**
+     * Sets a new zwrotDokumentow
+     *
+     * @param \Abryb\ENadawca\Type\ZwrotDokumentowBiznesowaType $zwrotDokumentow
+     *
+     * @return self
+     */
+    public function setZwrotDokumentow(ZwrotDokumentowBiznesowaType $zwrotDokumentow)
+    {
+        $this->zwrotDokumentow = $zwrotDokumentow;
 
         return $this;
     }

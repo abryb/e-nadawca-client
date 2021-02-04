@@ -22,6 +22,13 @@ class GlobalExpresType extends PrzesylkaRejestrowanaType
     protected $posteRestante;
 
     /**
+     * Element określający zawartość przesyłki.
+     * Aktualnie dopuszczalne wartości:
+     * KORESPONDENCJA
+     * DOKUMENTY_PONIZEJ_250G
+     * DOKUMENTY_POWYZEJ_250G
+     * TOWARY
+     *
      * @var string $zawartosc
      */
     protected $zawartosc;
@@ -50,6 +57,11 @@ class GlobalExpresType extends PrzesylkaRejestrowanaType
      * @var \Abryb\ENadawca\Type\DeklaracjaCelna2Type $deklaracjaCelna2
      */
     protected $deklaracjaCelna2;
+
+    /**
+     * @var \Abryb\ENadawca\Type\SposobDoreczeniaType $sposobDoreczenia
+     */
+    protected $sposobDoreczenia;
 
     /**
      * Gets as masa
@@ -102,6 +114,13 @@ class GlobalExpresType extends PrzesylkaRejestrowanaType
     /**
      * Gets as zawartosc
      *
+     * Element określający zawartość przesyłki.
+     * Aktualnie dopuszczalne wartości:
+     * KORESPONDENCJA
+     * DOKUMENTY_PONIZEJ_250G
+     * DOKUMENTY_POWYZEJ_250G
+     * TOWARY
+     *
      * @return string
      */
     public function getZawartosc()
@@ -111,6 +130,13 @@ class GlobalExpresType extends PrzesylkaRejestrowanaType
 
     /**
      * Sets a new zawartosc
+     *
+     * Element określający zawartość przesyłki.
+     * Aktualnie dopuszczalne wartości:
+     * KORESPONDENCJA
+     * DOKUMENTY_PONIZEJ_250G
+     * DOKUMENTY_POWYZEJ_250G
+     * TOWARY
      *
      * @param string $zawartosc
      *
@@ -239,6 +265,30 @@ class GlobalExpresType extends PrzesylkaRejestrowanaType
     public function setDeklaracjaCelna2(DeklaracjaCelna2Type $deklaracjaCelna2)
     {
         $this->deklaracjaCelna2 = $deklaracjaCelna2;
+
+        return $this;
+    }
+
+    /**
+     * Gets as sposobDoreczenia
+     *
+     * @return \Abryb\ENadawca\Type\SposobDoreczeniaType
+     */
+    public function getSposobDoreczenia()
+    {
+        return $this->sposobDoreczenia;
+    }
+
+    /**
+     * Sets a new sposobDoreczenia
+     *
+     * @param \Abryb\ENadawca\Type\SposobDoreczeniaType $sposobDoreczenia
+     *
+     * @return self
+     */
+    public function setSposobDoreczenia(SposobDoreczeniaType $sposobDoreczenia)
+    {
+        $this->sposobDoreczenia = $sposobDoreczenia;
 
         return $this;
     }
